@@ -1,0 +1,14 @@
+.section-tvc {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  overflow: hidden;
+
+  .section-wrapper {
+    video {
+      display: inline-block;
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+}
