@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "HYQiHei50S";
+  src: url("/font/HYQiHei-50S.woff");
+}
+
+@font-face {
+  font-family: "HYQiHei70S";
+  src: url("/font/HYQiHei-70S.woff");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333333;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  font-family: "HYQiHei50S";
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input,
+textarea {
+  background-color: #ffffff;
+}
+
+i,
+img {
+  display: inline-block;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c0c4cc;
+  border-radius: 4px
+}
