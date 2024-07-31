@@ -67,7 +67,7 @@ function SectionCardView(): React.ReactElement {
                   <br />
                   支持定制查看和回复所有手机通知消息。
                   <br />
-                  重要信息不容错过，专注工作不被打扰1。
+                  重要信息不容错过，专注工作不被打扰。
                 </p>
               </div>
               <img
@@ -88,7 +88,7 @@ function SectionCardView(): React.ReactElement {
                 <p className="intro">
                   在当前使用的荣耀设备上接打电话，
                   <br />
-                  让重要来电不漏接，专注效率不中断1。
+                  让重要来电不漏接，专注效率不中断。
                 </p>
               </div>
               <img

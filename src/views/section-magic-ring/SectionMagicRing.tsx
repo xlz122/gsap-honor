@@ -1,9 +1,10 @@
 import React from 'react';
 import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
 import './section-magic-ring.scss';
 
-gsap.registerPlugin(useGSAP);
+gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 function SectionMagicRing(): React.ReactElement {
   useGSAP(() => {
