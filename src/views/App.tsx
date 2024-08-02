@@ -7,6 +7,7 @@ import SectionMagicRing from './section-magic-ring/SectionMagicRing';
 import SectionConnect from './section-connect/SectionConnect';
 import SectionCardView from './section-card-view/SectionCardView';
 import SectionDevice from './section-device/SectionDevice';
+import SectionMagicLive from './section-magic-live/SectionMagicLive';
 
 function App(): React.ReactElement {
   return (
@@ -44,6 +45,7 @@ function App(): React.ReactElement {
       />
       <SectionCardView />
       <SectionDevice />
+      <SectionMagicLive />
     </>
   );
 }
