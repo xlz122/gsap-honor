@@ -21,6 +21,7 @@ function SectionMagicRing(): React.ReactElement {
       yPercent: 80,
       scale: 5
     });
+
     timeline.to('.section-magic-ring .ring-path', {
       strokeDasharray: '0% 0% 220%',
       duration: 0.5
