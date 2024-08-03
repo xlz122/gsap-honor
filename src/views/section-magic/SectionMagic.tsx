@@ -15,11 +15,12 @@ function SectionMagic(): React.ReactElement {
       scrub: 0.5,
       onToggle: ({ isActive }) => {
         if (!isActive) {
-          gsap.fromTo(
-            '.section-magic .title',
-            { y: 0, opacity: 1 },
-            { y: 50, opacity: 0, duration: 0.5, ease: 'power1.inOut' }
-          );
+          gsap.to('.section-magic .title', {
+            y: 50,
+            opacity: 0,
+            duration: 0.5,
+            ease: 'power1.inOut'
+          });
           return;
         }
 
@@ -36,11 +37,12 @@ function SectionMagic(): React.ReactElement {
       scrub: 0.5,
       onToggle: ({ isActive }) => {
         if (!isActive) {
-          gsap.fromTo(
-            '.section-magic .list',
-            { y: 0, opacity: 1 },
-            { y: 50, opacity: 0, duration: 0.5, ease: 'power1.inOut' }
-          );
+          gsap.to('.section-magic .list', {
+            y: 50,
+            opacity: 0,
+            duration: 0.5,
+            ease: 'power1.inOut'
+          });
           return;
         }
 

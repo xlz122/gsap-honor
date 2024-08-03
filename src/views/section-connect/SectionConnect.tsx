@@ -24,18 +24,18 @@ function SectionConnect(props: Props): React.ReactElement {
       start: 'top 70%',
       onToggle: ({ isActive }) => {
         if (!isActive) {
-          gsap.fromTo(
-            videoInfoRef.current,
-            { y: 0, opacity: 1 },
-            { y: 50, opacity: 0, duration: 0.5, ease: 'power1.inOut' }
-          );
+          gsap.to(videoInfoRef.current, {
+            y: 50,
+            opacity: 0,
+            duration: 0.5
+          });
           return;
         }
 
         gsap.fromTo(
           videoInfoRef.current,
           { y: 50, opacity: 0 },
-          { y: 0, opacity: 1, duration: 0.5, ease: 'power1.inOut' }
+          { y: 0, opacity: 1, duration: 0.5 }
         );
       }
     });
@@ -44,18 +44,18 @@ function SectionConnect(props: Props): React.ReactElement {
       start: 'top center',
       onToggle: ({ isActive }) => {
         if (!isActive) {
-          gsap.fromTo(
-            videoRef.current,
-            { y: 0, opacity: 1 },
-            { y: 50, opacity: 0, duration: 0.5, ease: 'power1.inOut' }
-          );
+          gsap.to(videoRef.current, {
+            y: 50,
+            opacity: 0,
+            duration: 0.5
+          });
           return;
         }
 
         gsap.fromTo(
           videoRef.current,
           { y: 50, opacity: 0 },
-          { y: 0, opacity: 1, duration: 0.5, ease: 'power1.inOut' }
+          { y: 0, opacity: 1, duration: 0.5 }
         );
       }
     });

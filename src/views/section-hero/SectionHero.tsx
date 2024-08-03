@@ -22,7 +22,7 @@ function SectionHero(): React.ReactElement {
       <div className="section-wrapper">
         <img
           className="cover"
-          src={getImageUrl('assets/section-hero/kv.png')}
+          src={getImageUrl('assets/section-hero/magic-kv.png')}
           alt=""
         />
         <div className="content">

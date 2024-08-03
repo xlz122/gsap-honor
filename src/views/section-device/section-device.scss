@@ -12,7 +12,7 @@
     justify-content: space-between;
     width: 69.791667vw;
 
-    .device-info {
+    .image-info {
       width: 17.708333vw;
 
       .title {
@@ -31,18 +31,18 @@
       }
     }
 
-    .device {
+    .image-content {
       position: relative;
       width: 51.5625vw;
 
-      .device-pc {
+      .pc {
         width: 100%;
         height: 100%;
         opacity: 0;
       }
 
-      .device-ipad,
-      .device-mobile {
+      .ipad,
+      .mobile {
         position: absolute;
         top: 0;
         left: 0;

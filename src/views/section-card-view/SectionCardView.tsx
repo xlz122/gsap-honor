@@ -56,7 +56,7 @@ function SectionCardView(): React.ReactElement {
         <div className="sticky-content" ref={stickyContentRef}>
           <div className="card card-offset">
             <div className="card-content">
-              <div className="image-info">
+              <div className="cover-info">
                 <h2 className="title">
                   重要不错过
                   <br />
@@ -72,14 +72,14 @@ function SectionCardView(): React.ReactElement {
               </div>
               <img
                 className="cover"
-                src={getImageUrl('assets/section-card-view/s4-01-poster.jpg')}
+                src={getImageUrl('assets/section-card-view/s1-01.jpg')}
                 alt="intro"
               />
             </div>
           </div>
           <div className="card card-blur">
-            <div className="card-content card-content-blur">
-              <div className="image-info">
+            <div className="card-content">
+              <div className="cover-info">
                 <h2 className="title">
                   来电不漏接
                   <br />
@@ -93,7 +93,7 @@ function SectionCardView(): React.ReactElement {
               </div>
               <img
                 className="cover"
-                src={getImageUrl('assets/section-card-view/s4-02-poster.jpg')}
+                src={getImageUrl('assets/section-card-view/s1-02.jpg')}
                 alt=""
               />
             </div>

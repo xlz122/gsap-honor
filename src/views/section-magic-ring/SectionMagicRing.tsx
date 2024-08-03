@@ -17,9 +17,10 @@ function SectionMagicRing(): React.ReactElement {
       }
     });
 
-    timeline.set('.section-magic-ring .ring-svg', {
-      yPercent: 80,
-      scale: 5
+    timeline.set('.section-magic-ring .ring-svg', { yPercent: 80, scale: 5 });
+    timeline.set('.section-magic-ring .ring-path', {
+      stroke: '#d7a85b',
+      strokeWidth: 2
     });
 
     timeline.to('.section-magic-ring .ring-path', {
@@ -32,39 +33,23 @@ function SectionMagicRing(): React.ReactElement {
       scale: 0.8,
       duration: 0.5
     });
-    timeline.from(
+    timeline.to(
       '.section-magic-ring .ring-path',
-      {
-        stroke: '#d7a85b',
-        strokeWidth: 2,
-        duration: 0.5
-      },
+      { stroke: '#000000', strokeWidth: 8, duration: 0.5 },
       '<'
     );
     timeline.to(
       '.section-magic-ring .ring-circle',
-      {
-        opacity: 1,
-        duration: 0.5
-      },
+      { opacity: 1, duration: 0.5 },
       '<'
     );
 
-    timeline.to('.section-magic-ring .title', {
-      opacity: 1,
-      duration: 0.5
-    });
+    timeline.to('.section-magic-ring .title', { opacity: 1, duration: 0.5 });
 
     timeline.fromTo(
       '.section-magic-ring .subtitle',
-      {
-        y: 60
-      },
-      {
-        y: 0,
-        opacity: 1,
-        duration: 1
-      }
+      { y: 60, opacity: 0 },
+      { y: 0, opacity: 1, duration: 1 }
     );
 
     timeline.to('.section-magic-ring .section-wrapper', {
@@ -73,14 +58,8 @@ function SectionMagicRing(): React.ReactElement {
     });
     timeline.fromTo(
       '.section-magic-ring .intro',
-      {
-        y: 60
-      },
-      {
-        y: 0,
-        opacity: 1,
-        duration: 1
-      },
+      { y: 60, opacity: 0 },
+      { y: 0, opacity: 1, duration: 1 },
       '<'
     );
   });
