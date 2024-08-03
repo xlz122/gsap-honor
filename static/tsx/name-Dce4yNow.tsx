@@ -17,13 +17,8 @@ function SectionMagicLive(): React.ReactElement {
       }
     });
 
-    timeline.set('.section-magic-live .live-svg', {
-      yPercent: 50,
-      scale: 3.6
-    });
-    timeline.set('.section-magic-live .live-path', {
-      strokeWidth: 2
-    });
+    timeline.set('.section-magic-live .live-svg', { yPercent: 50, scale: 3.6 });
+    timeline.set('.section-magic-live .live-path', { strokeWidth: 2 });
 
     timeline.to('.section-magic-live .path-gold', {
       strokeDasharray: '0% 0% 210%',
@@ -41,17 +36,11 @@ function SectionMagicLive(): React.ReactElement {
     });
     timeline.to(
       '.section-magic-live .live-path',
-      {
-        strokeWidth: 9,
-        duration: 0.5
-      },
+      { strokeWidth: 9, duration: 0.5 },
       '<'
     );
 
-    timeline.to('.section-magic-live .title', {
-      opacity: 1,
-      duration: 0.5
-    });
+    timeline.to('.section-magic-live .title', { opacity: 1, duration: 0.5 });
 
     timeline.to('.section-magic-live .section-wrapper', {
       yPercent: -6,
@@ -59,14 +48,8 @@ function SectionMagicLive(): React.ReactElement {
     });
     timeline.fromTo(
       '.section-magic-live .subtitle',
-      {
-        y: 60
-      },
-      {
-        y: 0,
-        opacity: 1,
-        duration: 1
-      },
+      { y: 60, opacity: 0 },
+      { y: 0, opacity: 1, duration: 1 },
       '<'
     );
   });
