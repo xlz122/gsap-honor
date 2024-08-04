@@ -73,7 +73,7 @@ function SectionCardView(): React.ReactElement {
               <img
                 className="cover"
                 src={getImageUrl('assets/section-card-view/s1-01.jpg')}
-                alt="intro"
+                alt=""
               />
             </div>
           </div>
