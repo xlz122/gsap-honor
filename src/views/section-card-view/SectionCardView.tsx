@@ -26,17 +26,6 @@ function SectionCardView(): React.ReactElement {
       ease: 'none'
     });
 
-    gsap.to('.section-card-view .card-offset', {
-      scrollTrigger: {
-        trigger: '.section-card-view',
-        start: 'top top',
-        end: 'bottom 100%',
-        scrub: 0
-      },
-      x: -offsetLeft,
-      ease: 'none'
-    });
-
     gsap.to('.section-card-view .card-blur .card-content', {
       scrollTrigger: {
         trigger: '.section-card-view',
@@ -46,6 +35,17 @@ function SectionCardView(): React.ReactElement {
       },
       filter: 'blur(0px)',
       scale: 1,
+      ease: 'none'
+    });
+
+    gsap.to('.section-card-view .card-offset', {
+      scrollTrigger: {
+        trigger: '.section-card-view',
+        start: 'top top',
+        end: 'bottom bottom',
+        scrub: 0
+      },
+      x: -offsetLeft,
       ease: 'none'
     });
   });

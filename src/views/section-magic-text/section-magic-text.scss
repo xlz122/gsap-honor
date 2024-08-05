@@ -1,4 +1,4 @@
-.section-card-view {
+.section-magic-text {
   width: 100%;
   height: 108.333333vw;
   background-color: #f0f0f0;
@@ -7,12 +7,21 @@
     position: sticky;
     top: 65px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: calc(100vh - 65px);
     overflow: hidden;
+
+    .title {
+      width: 100%;
+      margin-left: 33.75vw;
+      margin-bottom: 2.083333vw;
+      font-family: "HYQiHei70S";
+      font-size: 2.5vw;
+      color: rgba(0, 0, 0, 0.8);
+    }
 
     .sticky-content {
       display: flex;
@@ -46,14 +55,13 @@
           width: 34.083333vw;
           padding: 0 3.125vw;
 
-          .title {
+          .subtitle {
             font-family: "HYQiHei70S";
-            font-size: 2.5vw;
+            font-size: 1.666667vw;
             color: rgba(0, 0, 0, 0.8);
           }
 
           .intro {
-            margin-top: 1.5625vw;
             line-height: 1.5;
             font-size: 0.9375vw;
             color: rgba(0, 0, 0, 0.5);

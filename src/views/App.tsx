@@ -11,6 +11,7 @@ import SectionMagicLive from './section-magic-live/SectionMagicLive';
 // 第十一屏
 import SectionService from './section-service/SectionService';
 import SectionScene from './section-scene/SectionScene';
+import SectionMagicText from './section-magic-text/SectionMagicText';
 
 function App(): React.ReactElement {
   return (
@@ -51,6 +52,7 @@ function App(): React.ReactElement {
       <SectionMagicLive />
       <SectionService />
       <SectionScene />
+      <SectionMagicText />
     </>
   );
 }
