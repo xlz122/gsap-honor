@@ -43,7 +43,7 @@ function SectionMagicLive(): React.ReactElement {
     timeline.to('.section-magic-live .title', { opacity: 1, duration: 0.5 });
 
     timeline.to('.section-magic-live .section-wrapper', {
-      yPercent: -6,
+      yPercent: -5,
       duration: 1
     });
     timeline.fromTo(

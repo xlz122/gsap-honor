@@ -1,7 +1,7 @@
-.section-magic-live {
+.section-turbo {
   width: 100%;
   height: 200vh;
-  background-color: #ffffff;
+  background-color: #000000;
 
   .section-wrapper {
     position: sticky;
@@ -17,14 +17,14 @@
       margin-top: 0.520833vw;
       font-family: "HYQiHei70S";
       font-size: 3.333333vw;
-      color: rgba(0, 0, 0, 0.8);
+      color: #ffffff;
       opacity: 0;
     }
 
     .subtitle {
       margin-top: 1.04167vw;
       font-size: 2.5vw;
-      color: rgba(0, 0, 0, 0.8);
+      color: #ffffff;
       opacity: 0;
     }
   }

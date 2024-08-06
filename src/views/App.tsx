@@ -12,6 +12,7 @@ import SectionMagicLive from './section-magic-live/SectionMagicLive';
 import SectionService from './section-service/SectionService';
 import SectionScene from './section-scene/SectionScene';
 import SectionMagicText from './section-magic-text/SectionMagicText';
+import SectionTurbo from './section-turbo/SectionTurbo';
 
 function App(): React.ReactElement {
   return (
@@ -53,6 +54,7 @@ function App(): React.ReactElement {
       <SectionService />
       <SectionScene />
       <SectionMagicText />
+      <SectionTurbo />
     </>
   );
 }

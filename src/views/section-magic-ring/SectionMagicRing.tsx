@@ -53,7 +53,7 @@ function SectionMagicRing(): React.ReactElement {
     );
 
     timeline.to('.section-magic-ring .section-wrapper', {
-      yPercent: -6,
+      yPercent: -5,
       duration: 1
     });
     timeline.fromTo(
