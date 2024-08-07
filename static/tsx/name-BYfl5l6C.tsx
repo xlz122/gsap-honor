@@ -10,9 +10,9 @@ function SectionMagicLive(): React.ReactElement {
   useGSAP(() => {
     const timeline = gsap.timeline({
       scrollTrigger: {
-        trigger: '.section-magic-live',
+        trigger: '.section-magic-live .section-wrapper',
         start: 'top 65px',
-        end: 'bottom 100%',
+        pin: true,
         scrub: 0.5
       }
     });

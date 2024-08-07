@@ -10,9 +10,9 @@ function SectionTurbo(): React.ReactElement {
   useGSAP(() => {
     const timeline = gsap.timeline({
       scrollTrigger: {
-        trigger: '.section-turbo',
+        trigger: '.section-turbo .section-wrapper',
         start: 'top 65px',
-        end: 'bottom 100%',
+        pin: true,
         scrub: 0.5
       }
     });
