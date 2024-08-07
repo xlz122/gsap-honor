@@ -66,17 +66,17 @@ function SectionService(): React.ReactElement {
           <div className="image-content">
             <img
               className="mobile"
-              src={getImageUrl('assets/section-service/s3-01.png')}
+              src={getImageUrl('assets/section-service/s4-01.png')}
               alt=""
             />
             <img
               className="plan"
-              src={getImageUrl('assets/section-service/s3-02.png')}
+              src={getImageUrl('assets/section-service/s4-02.png')}
               alt=""
             />
             <img
               className="schedule"
-              src={getImageUrl('assets/section-service/s3-03.png')}
+              src={getImageUrl('assets/section-service/s4-03.png')}
               alt=""
             />
           </div>

@@ -3,11 +3,11 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
 import { getImageUrl } from '@/utils/utils';
-import './section-card-view.scss';
+import './section-notice.scss';
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
-function SectionCardView(): React.ReactElement {
+function SectionNotice(): React.ReactElement {
   const stickyContentRef = useRef<HTMLDivElement | null>(null);
 
   useGSAP(() => {
@@ -15,9 +15,9 @@ function SectionCardView(): React.ReactElement {
     const scrollWidth = stickyContentRef.current?.scrollWidth ?? 0;
     const offsetLeft = stickyContentRef.current?.offsetLeft ?? 0;
 
-    gsap.to('.section-card-view .sticky-content', {
+    gsap.to('.section-notice .sticky-content', {
       scrollTrigger: {
-        trigger: '.section-card-view',
+        trigger: '.section-notice',
         start: 'top 65px',
         end: 'bottom 100%',
         scrub: 0
@@ -26,9 +26,9 @@ function SectionCardView(): React.ReactElement {
       ease: 'none'
     });
 
-    gsap.to('.section-card-view .card-blur .card-content', {
+    gsap.to('.section-notice .card-blur .card-content', {
       scrollTrigger: {
-        trigger: '.section-card-view',
+        trigger: '.section-notice',
         start: 'top 65px',
         end: 'center 100%',
         scrub: 0
@@ -38,10 +38,10 @@ function SectionCardView(): React.ReactElement {
       ease: 'none'
     });
 
-    gsap.to('.section-card-view .card-offset', {
+    gsap.to('.section-notice .card-offset', {
       scrollTrigger: {
-        trigger: '.section-card-view',
-        start: 'top top',
+        trigger: '.section-notice',
+        start: 'center center',
         end: 'bottom bottom',
         scrub: 0
       },
@@ -51,7 +51,7 @@ function SectionCardView(): React.ReactElement {
   });
 
   return (
-    <section className="section-card-view">
+    <section className="section-notice">
       <div className="section-wrapper">
         <div className="sticky-content" ref={stickyContentRef}>
           <div className="card card-offset">
@@ -72,7 +72,7 @@ function SectionCardView(): React.ReactElement {
               </div>
               <img
                 className="cover"
-                src={getImageUrl('assets/section-card-view/s1-01.jpg')}
+                src={getImageUrl('assets/section-notice/s1-01.jpg')}
                 alt=""
               />
             </div>
@@ -93,7 +93,7 @@ function SectionCardView(): React.ReactElement {
               </div>
               <img
                 className="cover"
-                src={getImageUrl('assets/section-card-view/s1-02.jpg')}
+                src={getImageUrl('assets/section-notice/s1-02.jpg')}
                 alt=""
               />
             </div>
@@ -104,4 +104,4 @@ function SectionCardView(): React.ReactElement {
   );
 }
 
-export default SectionCardView;
+export default SectionNotice;

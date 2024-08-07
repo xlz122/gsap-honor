@@ -5,10 +5,11 @@ import SectionTvc from './section-tvc/SectionTvc';
 import SectionMagic from './section-magic/SectionMagic';
 import SectionMagicRing from './section-magic-ring/SectionMagicRing';
 import SectionConnect from './section-connect/SectionConnect';
-import SectionCardView from './section-card-view/SectionCardView';
+import SectionNotice from './section-notice/SectionNotice';
 import SectionDevice from './section-device/SectionDevice';
-import SectionMagicLive from './section-magic-live/SectionMagicLive';
+import SectionNote from './section-note/SectionNote';
 // 第十一屏
+import SectionMagicLive from './section-magic-live/SectionMagicLive';
 import SectionService from './section-service/SectionService';
 import SectionScene from './section-scene/SectionScene';
 import SectionMagicText from './section-magic-text/SectionMagicText';
@@ -48,8 +49,9 @@ function App(): React.ReactElement {
         ]}
         videoURL={'assets/section-connect/s3.mp4'}
       />
-      <SectionCardView />
+      <SectionNotice />
       <SectionDevice />
+      <SectionNote />
       <SectionMagicLive />
       <SectionService />
       <SectionScene />

@@ -14,7 +14,7 @@
     height: 100%;
     min-width: 1200px;
     max-width: 1440px;
-    padding: 0 20px;
+    padding-inline: 20px;
     margin: 0 auto;
     box-sizing: border-box;
 
@@ -42,7 +42,7 @@
         display: flex;
         align-items: center;
         height: 100%;
-        margin: 0 16px;
+        margin-inline: 16px;
         font-size: 14px;
         color: #000000;
         cursor: pointer;

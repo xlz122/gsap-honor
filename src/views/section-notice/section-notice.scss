@@ -1,4 +1,4 @@
-.section-card-view {
+.section-notice {
   width: 100%;
   height: 108.333333vw;
   background-color: #f0f0f0;
@@ -44,7 +44,7 @@
           display: flex;
           flex-direction: column;
           width: 34.083333vw;
-          padding: 0 3.125vw;
+          padding-inline: 3.125vw;
 
           .title {
             font-family: "HYQiHei70S";
@@ -53,7 +53,7 @@
           }
 
           .intro {
-            margin-top: 1.5625vw;
+            margin-block-start: 1.5625vw;
             line-height: 1.5;
             font-size: 0.9375vw;
             color: rgba(0, 0, 0, 0.5);

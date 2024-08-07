@@ -26,7 +26,7 @@
       opacity: 0;
 
       .item {
-        padding: 0 3.333333vw;
+        padding-inline: 3.333333vw;
 
         .subtitle {
           font-family: "HYQiHei70S";
@@ -35,8 +35,10 @@
         }
 
         .intro {
-          margin-top: 1.041667vw;
+          margin-block-start: 1.041667vw;
+          line-height: 1.5;
           font-size: 0.9375vw;
+          color: rgba(0, 0, 0, 0.5);
         }
       }
     }

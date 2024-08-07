@@ -1,11 +1,9 @@
 .section-turbo {
   width: 100%;
-  height: 200vh;
+  height: 100%;
   background-color: #000000;
 
   .section-wrapper {
-    position: sticky;
-    top: 65px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,7 +12,7 @@
     height: calc(100vh - 65px);
 
     .title {
-      margin-top: 0.520833vw;
+      margin-block-start: 0.520833vw;
       font-family: "HYQiHei70S";
       font-size: 3.333333vw;
       color: #ffffff;
@@ -22,7 +20,7 @@
     }
 
     .subtitle {
-      margin-top: 1.04167vw;
+      margin-block-end: 1.04167vw;
       font-size: 2.5vw;
       color: #ffffff;
       opacity: 0;

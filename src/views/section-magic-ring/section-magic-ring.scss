@@ -14,7 +14,7 @@
     height: calc(100vh - 65px);
 
     .title {
-      margin-top: 0.520833vw;
+      margin-block-start: 0.520833vw;
       font-family: "HYQiHei70S";
       font-size: 3.333333vw;
       color: rgba(0, 0, 0, 0.8);
@@ -22,16 +22,17 @@
     }
 
     .subtitle {
-      margin-top: 1.04167vw;
+      margin-block-end: 1.04167vw;
       font-size: 2.5vw;
       color: rgba(0, 0, 0, 0.8);
       opacity: 0;
     }
 
     .intro {
-      margin-top: 1.04167vw;
-      color: #256fff;
+      margin-block-end: 1.04167vw;
+      line-height: 1.5;
       font-size: 0.9375vw;
+      color: #256fff;
       cursor: pointer;
       opacity: 0;
     }

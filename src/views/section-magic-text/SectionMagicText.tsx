@@ -68,7 +68,7 @@ function SectionMagicText(): React.ReactElement {
               </div>
               <img
                 className="cover"
-                src={getImageUrl('assets/section-magic-text/s5-01.jpg')}
+                src={getImageUrl('assets/section-magic-text/s6-01.jpg')}
                 alt=""
               />
             </div>
@@ -87,7 +87,7 @@ function SectionMagicText(): React.ReactElement {
               </div>
               <img
                 className="cover"
-                src={getImageUrl('assets/section-magic-text/s5-02.jpg')}
+                src={getImageUrl('assets/section-magic-text/s6-02.jpg')}
                 alt=""
               />
             </div>
@@ -104,7 +104,7 @@ function SectionMagicText(): React.ReactElement {
               </div>
               <img
                 className="cover"
-                src={getImageUrl('assets/section-magic-text/s5-02.jpg')}
+                src={getImageUrl('assets/section-magic-text/s6-02.jpg')}
                 alt=""
               />
             </div>
