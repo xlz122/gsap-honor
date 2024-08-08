@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  width="60px"
+  height="60px"
+  viewBox="0 0 60 60"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+  <title>icon/蓝色下箭头</title>
+  <defs>
+    <linearGradient x1="50%" y1="-7.1522567e-13%" x2="50%" y2="73.0543544%" id="linearGradient-1">
+      <stop stop-color="#3760EB" offset="0%"></stop>
+      <stop stop-color="#95DAFE" offset="100%"></stop>
+    </linearGradient>
+  </defs>
+  <g id="magic-os-定稿" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="icon/蓝色下箭头" transform="translate(30.000000, 30.000000) rotate(-180.000000) translate(-30.000000, -30.000000)">
+      <rect id="矩形" x="0" y="0" width="60" height="60"></rect>
+      <path
+        d="M30.2071702,12.5 L30.2071702,50 M30.2071702,12.5 L12.9143404,29.7928298 M30.2071702,12.5 L47.5,29.7928298"
+        id="形状结合"
+        stroke="url(#linearGradient-1)"
+        stroke-width="5"
+        stroke-linecap="round"
+      ></path>
+    </g>
+  </g>
+</svg>
