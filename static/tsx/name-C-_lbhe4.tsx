@@ -8,27 +8,27 @@ import './section-turbo-os.scss';
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 function SectionTurboOS(): React.ReactElement {
-  const sectionWrapperRef = useRef<HTMLDivElement | null>(null);
+  const wrapperRef = useRef<HTMLDivElement | null>(null);
   const headlineRef = useRef<HTMLDivElement | null>(null);
 
   useGSAP(() => {
     const timeline = gsap.timeline({
       scrollTrigger: {
-        trigger: '.section-turbo-os',
+        trigger: '.section-turbo-os .section-wrapper',
         start: 'top 65px',
         pin: true,
         scrub: 0.5
       }
     });
 
-    const wrapperHeight = sectionWrapperRef.current?.clientHeight ?? 0;
+    const wrapperHeight = wrapperRef.current?.clientHeight ?? 0;
     const headlineHeight = headlineRef.current?.clientHeight ?? 0;
     const headlineOffsetTop = headlineRef.current?.offsetTop ?? 0;
 
     timeline.set('.section-turbo-os .headline', {
       y: wrapperHeight / 2 - headlineHeight / 2 - headlineOffsetTop
     });
-    timeline.set('.section-turbo-os .performance', {
+    timeline.set('.section-turbo-os .section-content', {
       y: wrapperHeight - headlineOffsetTop
     });
     timeline.set('.section-turbo-os .headline-wrapper', { scale: 0.666667 });
@@ -58,12 +58,16 @@ function SectionTurboOS(): React.ReactElement {
     timeline.to('.section-turbo-os .headline-wrapper', { scale: 1 }, '<');
 
     timeline.to('.section-turbo-os .headline', { y: 0, duration: 1.5 });
-    timeline.to('.section-turbo-os .performance', { y: 0, duration: 1.5 }, '<');
+    timeline.to(
+      '.section-turbo-os .section-content',
+      { y: 0, duration: 1.5 },
+      '<'
+    );
   });
 
   return (
     <section className="section-turbo-os">
-      <div className="section-wrapper" ref={sectionWrapperRef}>
+      <div className="section-wrapper" ref={wrapperRef}>
         <div className="headline" ref={headlineRef}>
           <div className="turbo-os">
             <div className="fill-top"></div>
@@ -78,8 +82,8 @@ function SectionTurboOS(): React.ReactElement {
             <div className="title">流畅升级 功耗更优</div>
           </div>
         </div>
-        <div className="performance">
-          <div className="performance-item">
+        <div className="section-content">
+          <div className="performance">
             <h3 className="subtitle">系统更流畅</h3>
             <div className="improved">
               <div className="improved-item">
@@ -105,7 +109,7 @@ function SectionTurboOS(): React.ReactElement {
             </div>
           </div>
           <div className="divider"></div>
-          <div className="performance-item">
+          <div className="performance">
             <h3 className="subtitle">续航更持久</h3>
             <div className="improved">
               <div className="improved-item">
