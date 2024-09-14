@@ -1,0 +1,40 @@
+.section-magic-ring {
+  width: 100%;
+  height: 200vh;
+  background-color: #ffffff;
+
+  .section-wrapper {
+    position: sticky;
+    top: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 65px);
+
+    .title {
+      margin-block-start: 0.520833vw;
+      font-family: "HYQiHei70S";
+      font-size: 3.333333vw;
+      color: rgba(0, 0, 0, 0.8);
+      opacity: 0;
+    }
+
+    .subtitle {
+      margin-block-start: 1.04167vw;
+      font-size: 2.5vw;
+      color: rgba(0, 0, 0, 0.8);
+      opacity: 0;
+    }
+
+    .intro {
+      margin-block-start: 1.04167vw;
+      line-height: 1.5;
+      font-size: 0.9375vw;
+      color: #256fff;
+      cursor: pointer;
+      opacity: 0;
+    }
+  }
+}
