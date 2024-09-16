@@ -5,6 +5,7 @@ import SectionTvc from './section-tvc/SectionTvc';
 import SectionMagic from './section-magic/SectionMagic';
 import SectionMagicRing from './section-magic-ring/SectionMagicRing';
 import SectionConnect from './section-connect/SectionConnect';
+import SectionNotice from './section-notice/SectionNotice';
 
 function App(): React.ReactElement {
   return (
@@ -40,6 +41,7 @@ function App(): React.ReactElement {
         ]}
         videoURL={'assets/section-connect/s3.mp4'}
       />
+      <SectionNotice />
     </>
   );
 }

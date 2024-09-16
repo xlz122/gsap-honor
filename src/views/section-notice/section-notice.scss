@@ -1,0 +1,76 @@
+.section-notice {
+  width: 100%;
+  height: 108.333333vw;
+  background-color: #f0f0f0;
+
+  .section-wrapper {
+    position: sticky;
+    top: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 65px);
+    overflow: hidden;
+
+    .sticky-content {
+      display: flex;
+      width: 70.833333vw;
+      height: 24.583333vw;
+      margin: 0 auto;
+    }
+
+    .card {
+      flex-shrink: 0;
+      width: 100%;
+      height: 100%;
+
+      &:not(:first-child) {
+        margin-left: 3.125vw;
+      }
+
+      .card-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-color: #fafafa;
+        border-radius: 1.5625vw;
+        overflow: hidden;
+
+        .cover-info {
+          display: flex;
+          flex-direction: column;
+          width: 34.083333vw;
+          padding-inline: 3.125vw;
+
+          .title {
+            font-family: "HYQiHei70S";
+            font-size: 2.5vw;
+            color: rgba(0, 0, 0, 0.8);
+          }
+
+          .intro {
+            margin-block-start: 1.5625vw;
+            line-height: 1.5;
+            font-size: 0.9375vw;
+            color: rgba(0, 0, 0, 0.5);
+          }
+        }
+
+        .cover {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+    .card-blur .card-content {
+      transform: scale(0.8);
+      transform-origin: left;
+      filter: blur(10px);
+    }
+  }
+}
