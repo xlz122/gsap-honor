@@ -7,6 +7,7 @@ import SectionMagicRing from './section-magic-ring/SectionMagicRing';
 import SectionConnect from './section-connect/SectionConnect';
 import SectionNotice from './section-notice/SectionNotice';
 import SectionDevice from './section-device/SectionDevice';
+import SectionNote from './section-note/SectionNote';
 
 function App(): React.ReactElement {
   return (
@@ -44,6 +45,7 @@ function App(): React.ReactElement {
       />
       <SectionNotice />
       <SectionDevice />
+      <SectionNote />
     </>
   );
 }
