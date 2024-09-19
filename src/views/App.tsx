@@ -8,6 +8,8 @@ import SectionConnect from './section-connect/SectionConnect';
 import SectionNotice from './section-notice/SectionNotice';
 import SectionDevice from './section-device/SectionDevice';
 import SectionNote from './section-note/SectionNote';
+// 第十一屏
+import SectionMagicLive from './section-magic-live/SectionMagicLive';
 
 function App(): React.ReactElement {
   return (
@@ -46,6 +48,7 @@ function App(): React.ReactElement {
       <SectionNotice />
       <SectionDevice />
       <SectionNote />
+      <SectionMagicLive />
     </>
   );
 }
