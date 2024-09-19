@@ -10,6 +10,7 @@ import SectionDevice from './section-device/SectionDevice';
 import SectionNote from './section-note/SectionNote';
 // 第十一屏
 import SectionMagicLive from './section-magic-live/SectionMagicLive';
+import SectionService from './section-service/SectionService';
 
 function App(): React.ReactElement {
   return (
@@ -49,6 +50,7 @@ function App(): React.ReactElement {
       <SectionDevice />
       <SectionNote />
       <SectionMagicLive />
+      <SectionService />
     </>
   );
 }

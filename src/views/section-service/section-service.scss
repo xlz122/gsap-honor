@@ -1,0 +1,96 @@
+.section-service {
+  width: 100%;
+  height: 250vh;
+  background-color: #ffffff;
+
+  .service-info {
+    margin-bottom: 6.25vw;
+    text-align: center;
+
+    .title {
+      font-family: "HYQiHei70S";
+      font-size: 2.5vw;
+      color: rgba(0, 0, 0, 0.8);
+    }
+
+    .intro {
+      margin-block-start: 1.5625vw;
+      line-height: 1.5;
+      font-size: 0.9375vw;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  .section-wrapper {
+    position: sticky;
+    top: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 455px;
+    overflow: hidden;
+
+    .sticky-content {
+      position: relative;
+      width: 72.916667vw;
+      height: 100%;
+
+      .image-info {
+        position: absolute;
+        top: 0;
+        width: 16.145833vw;
+        margin-top: 3.125vw;
+        opacity: 0;
+
+        &.left-info {
+          left: 0;
+        }
+
+        &.right-info {
+          right: 0;
+        }
+
+        .title {
+          font-family: "HYQiHei70S";
+          font-size: 1.666667vw;
+          color: rgba(0, 0, 0, 0.8);
+        }
+
+        .intro {
+          margin-block-start: 0.2625vw;
+          line-height: 1.5;
+          font-size: 0.9375vw;
+          color: rgba(0, 0, 0, 0.5);
+        }
+      }
+
+      .image-content {
+        position: relative;
+        width: 34.479167vw;
+        margin: 0 auto;
+
+        .mobile {
+          width: 100%;
+          height: 100%;
+        }
+
+        .plan {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+        }
+
+        .schedule {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          opacity: 0;
+        }
+      }
+    }
+  }
+}
