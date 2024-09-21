@@ -1,0 +1,32 @@
+.section-scene {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+
+  .section-wrapper {
+    margin-block: 10.416667vw;
+
+    .cover-info {
+      margin-bottom: 5.208333vw;
+      text-align: center;
+
+      .title {
+        font-family: "HYQiHei70S";
+        font-size: 2.5vw;
+        color: rgba(0, 0, 0, 0.8);
+      }
+
+      .intro {
+        margin-block-start: 1.5625vw;
+        line-height: 1.5;
+        font-size: 0.9375vw;
+        color: rgba(0, 0, 0, 0.5);
+      }
+    }
+
+    .cover {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
