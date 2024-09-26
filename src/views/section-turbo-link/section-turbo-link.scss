@@ -1,0 +1,123 @@
+.section-turbo-link {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+
+  .section-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 65px);
+
+    .headline {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .turbo-os {
+        position: relative;
+        transform-origin: bottom;
+        overflow: hidden;
+
+        .fill-top {
+          position: absolute;
+          top: 1px;
+          left: 1px;
+          z-index: -1;
+          width: calc(100% - 2px);
+          height: 50%;
+          background-color: #ffffff;
+        }
+
+        .fill-bottom {
+          position: absolute;
+          right: 1px;
+          bottom: 1px;
+          z-index: -1;
+          width: calc(100% - 2px);
+          height: 50%;
+          background-color: #ffffff;
+        }
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .headline-wrapper {
+        position: relative;
+
+        .mask {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-image: linear-gradient(90deg, #000 var(--gradient-left), transparent 50%, #000 var(--gradient-right));
+          --gradient-left: 50%;
+          --gradient-right: 50%;
+        }
+
+        .title {
+          margin-block-start: 1.5625vw;
+          font-family: "HYQiHei70S";
+          font-size: 2.5vw;
+          color: #ffffff;
+        }
+      }
+    }
+
+    .section-content {
+      display: flex;
+      flex-direction: row;
+      margin-top: 7.291667vw;
+
+      img {
+        width: 5.989583vw;
+      }
+
+      .improved {
+        margin-top: 0.9375vw;
+        margin-inline: 6.510417vw;
+        text-align: center;
+
+        .subtitle {
+          font-size: 1.666667vw;
+          color: #ffffff;
+          opacity: 0.8;
+        }
+
+        .ratio {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          margin-top: 1.441667vw;
+
+          img {
+            width: 100%;
+          }
+
+          p {
+            font-family: "HYQiHei70S";
+            font-size: 7.604167vw;
+            font-weight: 600;
+            color: #ffffff;
+            background-image: linear-gradient(#97deff, #1d3de5);
+            -webkit-background-clip: text;
+            background-clip: text;
+            box-decoration-break: clone;
+            -webkit-box-decoration-break: clone;
+            -webkit-text-fill-color: transparent;
+
+            span {
+              font-size: 2.604167vw;
+            }
+          }
+        }
+      }
+    }
+  }
+}

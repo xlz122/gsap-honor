@@ -16,6 +16,7 @@ import SectionMagicText from './section-magic-text/SectionMagicText';
 import SectionTurbo from './section-turbo/SectionTurbo';
 import SectionTurboOS from './section-turbo-os/SectionTurboOS';
 import SectionTurboGpu from './section-turbo-gpu/SectionTurboGpu';
+import SectionTurboLink from './section-turbo-link/SectionTurboLink';
 
 function App(): React.ReactElement {
   return (
@@ -61,6 +62,7 @@ function App(): React.ReactElement {
       <SectionTurbo />
       <SectionTurboOS />
       <SectionTurboGpu />
+      <SectionTurboLink />
     </>
   );
 }
