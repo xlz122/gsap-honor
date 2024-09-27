@@ -18,6 +18,7 @@ import SectionTurboOS from './section-turbo-os/SectionTurboOS';
 import SectionTurboGpu from './section-turbo-gpu/SectionTurboGpu';
 import SectionTurboLink from './section-turbo-link/SectionTurboLink';
 import SectionMagicGuard from './section-magic-guard/SectionMagicGuard';
+import SectionFlowDesign from './section-flow-design/SectionFlowDesign';
 
 function App(): React.ReactElement {
   return (
@@ -65,6 +66,7 @@ function App(): React.ReactElement {
       <SectionTurboGpu />
       <SectionTurboLink />
       <SectionMagicGuard />
+      <SectionFlowDesign />
     </>
   );
 }

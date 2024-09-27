@@ -1,0 +1,29 @@
+.section-flow-design {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+
+  .section-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 65px);
+
+    .title {
+      margin-block-start: 0.520833vw;
+      font-family: "HYQiHei70S";
+      font-size: 3.333333vw;
+      color: rgba(0, 0, 0, 0.8);
+      opacity: 0;
+    }
+
+    .subtitle {
+      margin-block-start: 1.04167vw;
+      font-size: 2.5vw;
+      color: rgba(0, 0, 0, 0.8);
+      opacity: 0;
+    }
+  }
+}
