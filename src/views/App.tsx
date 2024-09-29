@@ -19,6 +19,8 @@ import SectionTurboGpu from './section-turbo-gpu/SectionTurboGpu';
 import SectionTurboLink from './section-turbo-link/SectionTurboLink';
 import SectionMagicGuard from './section-magic-guard/SectionMagicGuard';
 import SectionFlowDesign from './section-flow-design/SectionFlowDesign';
+// 第二十一屏
+import SectionSuggest from './section-suggest/SectionSuggest';
 
 function App(): React.ReactElement {
   return (
@@ -67,6 +69,7 @@ function App(): React.ReactElement {
       <SectionTurboLink />
       <SectionMagicGuard />
       <SectionFlowDesign />
+      <SectionSuggest />
     </>
   );
 }
