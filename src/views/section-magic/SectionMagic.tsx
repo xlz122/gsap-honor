@@ -63,7 +63,7 @@ function SectionMagic(): React.ReactElement {
           <li className="item">
             <img
               className="cover"
-              src={getImageUrl('assets/section-magic/magic-ring.svg')}
+              src={getImageUrl('/src/assets/section-magic/magic-ring.svg')}
               alt=""
             />
             <p className="subtitle">MagicRing 信任环</p>
@@ -72,7 +72,7 @@ function SectionMagic(): React.ReactElement {
           <li className="item">
             <img
               className="cover"
-              src={getImageUrl('assets/section-magic/magic-ring.svg')}
+              src={getImageUrl('/src/assets/section-magic/magic-ring.svg')}
               alt=""
             />
             <p className="subtitle">Magic Live 智慧引擎</p>
@@ -81,7 +81,7 @@ function SectionMagic(): React.ReactElement {
           <li className="item">
             <img
               className="cover"
-              src={getImageUrl('assets/section-magic/magic-ring.svg')}
+              src={getImageUrl('/src/assets/section-magic/magic-ring.svg')}
               alt=""
             />
             <p className="subtitle">Turbo X 系统引擎</p>
@@ -90,7 +90,7 @@ function SectionMagic(): React.ReactElement {
           <li className="item">
             <img
               className="cover"
-              src={getImageUrl('assets/section-magic/magic-ring.svg')}
+              src={getImageUrl('/src/assets/section-magic/magic-ring.svg')}
               alt=""
             />
             <p className="subtitle">MagicGuard 荣耀安全</p>

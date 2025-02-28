@@ -73,7 +73,7 @@ function SectionTurboLink(): React.ReactElement {
             <div className="fill-top"></div>
             <div className="fill-bottom"></div>
             <img
-              src={getImageUrl('assets/section-turbo-link/turbo-link.svg')}
+              src={getImageUrl('/src/assets/section-turbo-link/turbo-link.svg')}
               alt=""
             />
           </div>
@@ -84,21 +84,21 @@ function SectionTurboLink(): React.ReactElement {
         </div>
         <div className="section-content">
           <img
-            src={getImageUrl('assets/section-turbo-link/tower-white.svg')}
+            src={getImageUrl('/src/assets/section-turbo-link/tower-white.svg')}
             alt=""
           />
           <div className="improved">
             <p className="subtitle">蜂窝网络数据卡顿率</p>
             <div className="ratio">
               <img
-                src={getImageUrl('assets/section-turbo-link/arrow-down.svg')}
+                src={getImageUrl('/src/assets/section-turbo-link/arrow-down.svg')}
                 alt=""
               />
               <p>83%</p>
             </div>
           </div>
           <img
-            src={getImageUrl('assets/section-turbo-link/tower-blue.svg')}
+            src={getImageUrl('/src/assets/section-turbo-link/tower-blue.svg')}
             alt=""
           />
         </div>
