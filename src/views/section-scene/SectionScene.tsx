@@ -17,7 +17,7 @@ function SectionScene(): React.ReactElement {
         </div>
         <img
           className="cover"
-          src={getImageUrl('assets/section-scene/s5-01.png')}
+          src={getImageUrl('/src/assets/section-scene/s5-01.png')}
           alt=""
         />
       </div>

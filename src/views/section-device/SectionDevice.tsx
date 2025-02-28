@@ -68,17 +68,17 @@ function SectionTvc(): React.ReactElement {
         <div className="image-content">
           <img
             className="pc"
-            src={getImageUrl('assets/section-device/s3-01.png')}
+            src={getImageUrl('/src/assets/section-device/s3-01.png')}
             alt=""
           />
           <img
             className="ipad"
-            src={getImageUrl('assets/section-device/s3-02.png')}
+            src={getImageUrl('/src/assets/section-device/s3-02.png')}
             alt=""
           />
           <img
             className="mobile"
-            src={getImageUrl('assets/section-device/s3-03.png')}
+            src={getImageUrl('/src/assets/section-device/s3-03.png')}
             alt=""
           />
         </div>

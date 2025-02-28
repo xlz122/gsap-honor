@@ -36,7 +36,7 @@ function App(): React.ReactElement {
           '进入控制中心，三指上滑，拖动图标触碰周围的荣耀设备，一步开展多设备协同；',
           '在App里，以上述相同操作，还可实现应用数据流转。'
         ]}
-        videoURL={'assets/section-connect/s1.mp4'}
+        videoURL={'/src/assets/section-connect/s1.mp4'}
       />
       <SectionConnect
         title={['跨设备接续', '思路畅通无阻']}
@@ -45,7 +45,7 @@ function App(): React.ReactElement {
           '能随着你切换到附近的荣耀设备上继续，',
           '让工作衔接无缝，思路畅通无阻。'
         ]}
-        videoURL={'assets/section-connect/s2.mp4'}
+        videoURL={'/src/assets/section-connect/s2.mp4'}
       />
       <SectionConnect
         title={['一套键鼠', '多设备自成一套']}
@@ -54,7 +54,7 @@ function App(): React.ReactElement {
           '使用一套键鼠，同时控制其中任意三台，',
           '多设备协同无间，多资源跨屏拖拽。'
         ]}
-        videoURL={'assets/section-connect/s3.mp4'}
+        videoURL={'/src/assets/section-connect/s3.mp4'}
       />
       <SectionNotice />
       <SectionDevice />
