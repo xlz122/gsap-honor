@@ -73,7 +73,7 @@ function SectionTurboGpu(): React.ReactElement {
             <div className="fill-top"></div>
             <div className="fill-bottom"></div>
             <img
-              src={getImageUrl('assets/section-turbo-gpu/turbo-gpu.svg')}
+              src={getImageUrl('/src/assets/section-turbo-gpu/turbo-gpu.svg')}
               alt=""
             />
           </div>
@@ -83,7 +83,10 @@ function SectionTurboGpu(): React.ReactElement {
           </div>
         </div>
         <div className="section-content">
-          <img src={getImageUrl('assets/section-turbo-gpu/s7-01.png')} alt="" />
+          <img
+            src={getImageUrl('/src/assets/section-turbo-gpu/s7-01.png')}
+            alt=""
+          />
         </div>
       </div>
     </section>

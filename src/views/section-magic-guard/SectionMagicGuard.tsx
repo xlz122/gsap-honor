@@ -30,7 +30,7 @@ function SectionTurbo(): React.ReactElement {
     });
 
     timeline.to('.section-magic-guard .path-line', {
-      stroke: '#ffffff',
+      stroke: '#FFFFFF',
       duration: 0.5
     });
     timeline.to(
@@ -89,7 +89,7 @@ function SectionTurbo(): React.ReactElement {
                 <path
                   className="guard-path path-line"
                   d="M151.182961,101.417221 C151.182961,75.6528841 151.182961,51.5672821 151.182961,29.1604146 L89.9829612,18.0391451 L28.7829612,29.1604146 C28.7829612,51.5672821 28.7829612,75.6528841 28.7829612,101.417221 C28.7829612,127.181557 49.1829612,147.388865 89.9829612,162.039145 C130.782961,147.388865 151.182961,127.181557 151.182961,101.417221 Z"
-                  stroke="#d7a85b"
+                  stroke="#D7A85B"
                   strokeWidth="9"
                   strokeDasharray="0 260% 0"
                 ></path>

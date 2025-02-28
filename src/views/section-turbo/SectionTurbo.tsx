@@ -26,7 +26,7 @@ function SectionTurbo(): React.ReactElement {
       duration: 0.5
     });
     timeline.to('.section-turbo .path-circle', {
-      stroke: '#ffffff',
+      stroke: '#FFFFFF',
       duration: 0.5
     });
 
@@ -99,7 +99,7 @@ function SectionTurbo(): React.ReactElement {
                 <path
                   className="turbo-path path-circle"
                   d="M142.915808,147.793341 C156.914565,134.072229 165.6,114.95041 165.6,93.8 C165.6,52.0472729 131.752727,18.2 90,18.2 C48.2472729,18.2 14.4,52.0472729 14.4,93.8 C14.4,114.901577 23.0453746,133.983919 36.9873129,147.698214"
-                  stroke="#d7a85b"
+                  stroke="#D7A85B"
                   strokeWidth="9"
                   strokeLinecap="round"
                   strokeDasharray="0 200% 0"

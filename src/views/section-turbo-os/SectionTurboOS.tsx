@@ -73,7 +73,7 @@ function SectionTurboOS(): React.ReactElement {
             <div className="fill-top"></div>
             <div className="fill-bottom"></div>
             <img
-              src={getImageUrl('assets/section-turbo-os/turbo-os.svg')}
+              src={getImageUrl('/src/assets/section-turbo-os/turbo-os.svg')}
               alt=""
             />
           </div>
@@ -90,7 +90,7 @@ function SectionTurboOS(): React.ReactElement {
                 <p className="intro">应用滑动卡顿率</p>
                 <div className="ratio">
                   <img
-                    src={getImageUrl('assets/section-turbo-os/arrow-down.svg')}
+                    src={getImageUrl('/src/assets/section-turbo-os/arrow-down.svg')}
                     alt=""
                   />
                   <p>43%</p>
@@ -100,7 +100,7 @@ function SectionTurboOS(): React.ReactElement {
                 <p className="intro">应用启动响应时延</p>
                 <div className="ratio">
                   <img
-                    src={getImageUrl('assets/section-turbo-os/arrow-down.svg')}
+                    src={getImageUrl('/src/assets/section-turbo-os/arrow-down.svg')}
                     alt=""
                   />
                   <p>29%</p>
@@ -116,7 +116,7 @@ function SectionTurboOS(): React.ReactElement {
                 <p className="intro">视频聊天</p>
                 <div className="ratio">
                   <img
-                    src={getImageUrl('assets/section-turbo-os/arrow-up.svg')}
+                    src={getImageUrl('/src/assets/section-turbo-os/arrow-up.svg')}
                     alt=""
                   />
                   <p>
@@ -129,7 +129,7 @@ function SectionTurboOS(): React.ReactElement {
                 <p className="intro">刷短视频</p>
                 <div className="ratio">
                   <img
-                    src={getImageUrl('assets/section-turbo-os/arrow-up.svg')}
+                    src={getImageUrl('/src/assets/section-turbo-os/arrow-up.svg')}
                     alt=""
                   />
                   <p>

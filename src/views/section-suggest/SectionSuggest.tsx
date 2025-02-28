@@ -35,75 +35,75 @@ function SectionSuggest(): React.ReactElement {
         <div className="suggest-content">
           <div className="card-list card-list-1">
             <img
-              className="card"
-              src={getImageUrl('assets/section-suggest/card-01.png')}
+              className="item"
+              src={getImageUrl('/src/assets/section-suggest/card-01.png')}
               alt=""
             />
             <img
-              className="card"
-              src={getImageUrl('assets/section-suggest/card-02.png')}
+              className="item"
+              src={getImageUrl('/src/assets/section-suggest/card-02.png')}
               alt=""
             />
             <img
-              className="card"
-              src={getImageUrl('assets/section-suggest/card-03.png')}
+              className="item"
+              src={getImageUrl('/src/assets/section-suggest/card-03.png')}
               alt=""
             />
             <img
-              className="card"
-              src={getImageUrl('assets/section-suggest/card-04.png')}
+              className="item"
+              src={getImageUrl('/src/assets/section-suggest/card-04.png')}
               alt=""
             />
             <img
-              className="card"
-              src={getImageUrl('assets/section-suggest/card-05.png')}
+              className="item"
+              src={getImageUrl('/src/assets/section-suggest/card-05.png')}
               alt=""
             />
             <img
-              className="card"
-              src={getImageUrl('assets/section-suggest/card-06.png')}
+              className="item"
+              src={getImageUrl('/src/assets/section-suggest/card-06.png')}
               alt=""
             />
             <img
-              className="card"
-              src={getImageUrl('assets/section-suggest/card-07.png')}
+              className="item"
+              src={getImageUrl('/src/assets/section-suggest/card-07.png')}
               alt=""
             />
           </div>
           <div className="card-list card-list-2">
             <img
-              className="card"
-              src={getImageUrl('assets/section-suggest/card-01.png')}
+              className="item"
+              src={getImageUrl('/src/assets/section-suggest/card-01.png')}
               alt=""
             />
             <img
-              className="card"
-              src={getImageUrl('assets/section-suggest/card-02.png')}
+              className="item"
+              src={getImageUrl('/src/assets/section-suggest/card-02.png')}
               alt=""
             />
             <img
-              className="card"
-              src={getImageUrl('assets/section-suggest/card-03.png')}
+              className="item"
+              src={getImageUrl('/src/assets/section-suggest/card-03.png')}
               alt=""
             />
             <img
-              className="card"
-              src={getImageUrl('assets/section-suggest/card-04.png')}
+              className="item"
+              src={getImageUrl('/src/assets/section-suggest/card-04.png')}
               alt=""
             />
             <img
-              className="card"
-              src={getImageUrl('assets/section-suggest/card-05.png')}
+              className="item"
+              src={getImageUrl('/src/assets/section-suggest/card-05.png')}
               alt=""
             />
             <img
-              className="card"
-              src={getImageUrl('assets/section-suggest/card-06.png')}
+              className="item"
+              src={getImageUrl('/src/assets/section-suggest/card-06.png')}
               alt=""
             />
             <img
-              className="card"
-              src={getImageUrl('assets/section-suggest/card-07.png')}
+              className="item"
+              src={getImageUrl('/src/assets/section-suggest/card-07.png')}
               alt=""
             />
           </div>
