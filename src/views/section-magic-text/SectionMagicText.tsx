@@ -59,7 +59,7 @@ function SectionMagicText(): React.ReactElement {
           <div className="card">
             <div className="card-content">
               <div className="cover-info">
-                <p className="subtitle">提取快 识别准</p>
+                <h3 className="subtitle">提取快 识别准</h3>
                 <p className="intro">
                   手机上任意界面的文字，用指关节圈选，
                   <br />
@@ -68,7 +68,7 @@ function SectionMagicText(): React.ReactElement {
               </div>
               <img
                 className="cover"
-                src={getImageUrl('assets/section-magic-text/s6-01.jpg')}
+                src={getImageUrl('/src/assets/section-magic-text/s6-01.jpg')}
                 alt=""
               />
             </div>
@@ -76,7 +76,7 @@ function SectionMagicText(): React.ReactElement {
           <div className="card card-blur card-blur-1">
             <div className="card-content">
               <div className="cover-info">
-                <p className="subtitle">生活服务 一点即达</p>
+                <h3 className="subtitle">生活服务 一点即达</h3>
                 <p className="intro">
                   智慧分析图片中的文本语义：电话座机、地址、快
                   <br />
@@ -87,7 +87,7 @@ function SectionMagicText(): React.ReactElement {
               </div>
               <img
                 className="cover"
-                src={getImageUrl('assets/section-magic-text/s6-02.jpg')}
+                src={getImageUrl('/src/assets/section-magic-text/s6-02.jpg')}
                 alt=""
               />
             </div>
@@ -95,7 +95,7 @@ function SectionMagicText(): React.ReactElement {
           <div className="card card-blur card-blur-2">
             <div className="card-content">
               <div className="cover-info">
-                <p className="subtitle">翻页扫描</p>
+                <h3 className="subtitle">翻页扫描</h3>
                 <p className="intro">
                   文档自动连拍扫描，超强去阴影，智能防止重复。
                   <br />
@@ -104,7 +104,7 @@ function SectionMagicText(): React.ReactElement {
               </div>
               <img
                 className="cover"
-                src={getImageUrl('assets/section-magic-text/s6-02.jpg')}
+                src={getImageUrl('/src/assets/section-magic-text/s6-02.jpg')}
                 alt=""
               />
             </div>

@@ -19,18 +19,14 @@ function SectionFlowDesign(): React.ReactElement {
 
     timeline.to('.section-flow-design .title', { opacity: 1 });
 
-    timeline.fromTo(
-      '.section-flow-design .subtitle',
-      { y: 60, opacity: 0 },
-      { y: 0, opacity: 1 }
-    );
+    timeline.fromTo('.section-flow-design .subtitle', { y: 60, opacity: 0 }, { y: 0, opacity: 1 });
   });
 
   return (
     <section className="section-flow-design">
       <div className="section-wrapper">
         <h2 className="title">Flow Design</h2>
-        <p className="subtitle">自然交互 随心体验</p>
+        <h3 className="subtitle">自然交互 随心体验</h3>
       </div>
     </section>
   );

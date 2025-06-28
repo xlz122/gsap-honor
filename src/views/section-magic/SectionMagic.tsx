@@ -63,37 +63,37 @@ function SectionMagic(): React.ReactElement {
           <li className="item">
             <img
               className="cover"
-              src={getImageUrl('assets/section-magic/magic-ring.svg')}
+              src={getImageUrl('/src/assets/section-magic/magic-ring.svg')}
               alt=""
             />
-            <p className="subtitle">MagicRing 信任环</p>
+            <h3 className="subtitle">MagicRing 信任环</h3>
             <p className="intro">跨系统可信互联</p>
           </li>
           <li className="item">
             <img
               className="cover"
-              src={getImageUrl('assets/section-magic/magic-ring.svg')}
+              src={getImageUrl('/src/assets/section-magic/magic-ring.svg')}
               alt=""
             />
-            <p className="subtitle">Magic Live 智慧引擎</p>
+            <h3 className="subtitle">Magic Live 智慧引擎</h3>
             <p className="intro">平台级AI能力</p>
           </li>
           <li className="item">
             <img
               className="cover"
-              src={getImageUrl('assets/section-magic/magic-ring.svg')}
+              src={getImageUrl('/src/assets/section-magic/magic-ring.svg')}
               alt=""
             />
-            <p className="subtitle">Turbo X 系统引擎</p>
+            <h3 className="subtitle">Turbo X 系统引擎</h3>
             <p className="intro">内核级底层性能增强</p>
           </li>
           <li className="item">
             <img
               className="cover"
-              src={getImageUrl('assets/section-magic/magic-ring.svg')}
+              src={getImageUrl('/src/assets/section-magic/magic-ring.svg')}
               alt=""
             />
-            <p className="subtitle">MagicGuard 荣耀安全</p>
+            <h3 className="subtitle">MagicGuard 荣耀安全</h3>
             <p className="intro">三重安全防护体系</p>
           </li>
         </ul>

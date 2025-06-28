@@ -20,32 +20,19 @@ function SectionMagicLive(): React.ReactElement {
     timeline.set('.section-magic-live .live-svg', { yPercent: 50, scale: 3.6 });
     timeline.set('.section-magic-live .live-path', { strokeWidth: 2 });
 
-    timeline.to('.section-magic-live .path-gold', {
-      strokeDasharray: '0% 0% 210%',
-      duration: 0.5
-    });
-    timeline.to('.section-magic-live .path-black', {
-      opacity: 1,
-      duration: 0.5
-    });
+    timeline.to('.section-magic-live .path-gold', { strokeDasharray: '0% 0% 210%', duration: 0.5 });
+    timeline.to('.section-magic-live .path-black', { opacity: 1, duration: 0.5 });
 
     timeline.to('.section-magic-live .live-svg', {
       yPercent: 0,
       scale: 0.8,
       duration: 0.5
     });
-    timeline.to(
-      '.section-magic-live .live-path',
-      { strokeWidth: 9, duration: 0.5 },
-      '<'
-    );
+    timeline.to('.section-magic-live .live-path', { strokeWidth: 9, duration: 0.5 }, '<');
 
     timeline.to('.section-magic-live .title', { opacity: 1, duration: 0.5 });
 
-    timeline.to('.section-magic-live .section-wrapper', {
-      yPercent: -5,
-      duration: 1
-    });
+    timeline.to('.section-magic-live .section-wrapper', { yPercent: -5, duration: 1 });
     timeline.fromTo(
       '.section-magic-live .subtitle',
       { y: 60, opacity: 0 },
@@ -105,7 +92,7 @@ function SectionMagicLive(): React.ReactElement {
           </g>
         </svg>
         <h2 className="title">Magic Live 智慧引擎</h2>
-        <p className="subtitle">越用越好用</p>
+        <h3 className="subtitle">越用越好用</h3>
       </div>
     </section>
   );

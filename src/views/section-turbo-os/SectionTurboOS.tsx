@@ -28,9 +28,7 @@ function SectionTurboOS(): React.ReactElement {
     timeline.set('.section-turbo-os .headline', {
       y: wrapperHeight / 2 - headlineHeight / 2 - headlineOffsetTop
     });
-    timeline.set('.section-turbo-os .section-content', {
-      y: wrapperHeight - headlineOffsetTop
-    });
+    timeline.set('.section-turbo-os .section-content', { y: wrapperHeight - headlineOffsetTop });
     timeline.set('.section-turbo-os .headline-wrapper', { scale: 0.666667 });
 
     timeline.fromTo(
@@ -58,11 +56,7 @@ function SectionTurboOS(): React.ReactElement {
     timeline.to('.section-turbo-os .headline-wrapper', { scale: 1 }, '<');
 
     timeline.to('.section-turbo-os .headline', { y: 0, duration: 1.5 });
-    timeline.to(
-      '.section-turbo-os .section-content',
-      { y: 0, duration: 1.5 },
-      '<'
-    );
+    timeline.to('.section-turbo-os .section-content', { y: 0, duration: 1.5 }, '<');
   });
 
   return (
@@ -72,14 +66,11 @@ function SectionTurboOS(): React.ReactElement {
           <div className="turbo-os">
             <div className="fill-top"></div>
             <div className="fill-bottom"></div>
-            <img
-              src={getImageUrl('assets/section-turbo-os/turbo-os.svg')}
-              alt=""
-            />
+            <img src={getImageUrl('/src/assets/section-turbo-os/turbo-os.svg')} alt="" />
           </div>
           <div className="headline-wrapper">
             <div className="mask"></div>
-            <div className="title">流畅升级 功耗更优</div>
+            <h2 className="title">流畅升级 功耗更优</h2>
           </div>
         </div>
         <div className="section-content">
@@ -89,21 +80,15 @@ function SectionTurboOS(): React.ReactElement {
               <div className="improved-item">
                 <p className="intro">应用滑动卡顿率</p>
                 <div className="ratio">
-                  <img
-                    src={getImageUrl('assets/section-turbo-os/arrow-down.svg')}
-                    alt=""
-                  />
-                  <p>43%</p>
+                  <img src={getImageUrl('/src/assets/section-turbo-os/arrow-down.svg')} alt="" />
+                  <span>43%</span>
                 </div>
               </div>
               <div className="improved-item">
                 <p className="intro">应用启动响应时延</p>
                 <div className="ratio">
-                  <img
-                    src={getImageUrl('assets/section-turbo-os/arrow-down.svg')}
-                    alt=""
-                  />
-                  <p>29%</p>
+                  <img src={getImageUrl('/src/assets/section-turbo-os/arrow-down.svg')} alt="" />
+                  <span>29%</span>
                 </div>
               </div>
             </div>
@@ -115,27 +100,15 @@ function SectionTurboOS(): React.ReactElement {
               <div className="improved-item">
                 <p className="intro">视频聊天</p>
                 <div className="ratio">
-                  <img
-                    src={getImageUrl('assets/section-turbo-os/arrow-up.svg')}
-                    alt=""
-                  />
-                  <p>
-                    20
-                    <span> 分钟</span>
-                  </p>
+                  <img src={getImageUrl('/src/assets/section-turbo-os/arrow-up.svg')} alt="" />
+                  <span>20分钟</span>
                 </div>
               </div>
               <div className="improved-item">
                 <p className="intro">刷短视频</p>
                 <div className="ratio">
-                  <img
-                    src={getImageUrl('assets/section-turbo-os/arrow-up.svg')}
-                    alt=""
-                  />
-                  <p>
-                    30
-                    <span> 分钟</span>
-                  </p>
+                  <img src={getImageUrl('/src/assets/section-turbo-os/arrow-up.svg')} alt="" />
+                  <span>30分钟</span>
                 </div>
               </div>
             </div>

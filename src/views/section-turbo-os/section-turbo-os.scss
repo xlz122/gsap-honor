@@ -30,7 +30,7 @@
           z-index: -1;
           width: calc(100% - 2px);
           height: 50%;
-          background-color: #ffffff;
+          background-color: #FFFFFF;
         }
 
         .fill-bottom {
@@ -38,9 +38,9 @@
           right: 1px;
           bottom: 1px;
           z-index: -1;
-          width: calc(100% - 2px);
+          width: 100%;
           height: 50%;
-          background-color: #ffffff;
+          background-color: #FFFFFF;
         }
 
         img {
@@ -57,7 +57,7 @@
           left: 0;
           width: 100%;
           height: 100%;
-          background-image: linear-gradient(90deg, #000 var(--gradient-left), transparent 50%, #000 var(--gradient-right));
+          background-image: linear-gradient(90deg, #000000 var(--gradient-left), transparent 50%, #000000 var(--gradient-right));
           --gradient-left: 50%;
           --gradient-right: 50%;
         }
@@ -66,7 +66,7 @@
           margin-block-start: 1.5625vw;
           font-family: "HYQiHei70S";
           font-size: 2.5vw;
-          color: #ffffff;
+          color: #FFFFFF;
         }
       }
     }
@@ -82,7 +82,7 @@
         .subtitle {
           font-family: "HYQiHei70S";
           font-size: 1.666667vw;
-          color: #ffffff;
+          color: #FFFFFF;
         }
 
         .improved {
@@ -95,7 +95,7 @@
             .intro {
               line-height: 1.5;
               font-size: 0.9375vw;
-              color: #ffffff;
+              color: #FFFFFF;
             }
 
             .ratio {
@@ -108,12 +108,12 @@
                 width: 3.125vw;
               }
 
-              p {
+              span {
                 font-family: "HYQiHei70S";
                 font-size: 4.856183vw;
                 font-weight: 600;
-                color: #ffffff;
-                background-image: linear-gradient(#97deff, #1d3de5);
+                color: #FFFFFF;
+                background-image: linear-gradient(#97DEFF, #1D3DE5);
                 -webkit-background-clip: text;
                 background-clip: text;
                 box-decoration-break: clone;

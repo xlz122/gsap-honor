@@ -28,9 +28,7 @@ function SectionTurboGpu(): React.ReactElement {
     timeline.set('.section-turbo-gpu .headline', {
       y: wrapperHeight / 2 - headlineHeight / 2 - headlineOffsetTop
     });
-    timeline.set('.section-turbo-gpu .section-content', {
-      y: wrapperHeight - headlineOffsetTop
-    });
+    timeline.set('.section-turbo-gpu .section-content', { y: wrapperHeight - headlineOffsetTop });
     timeline.set('.section-turbo-gpu .headline-wrapper', { scale: 0.666667 });
 
     timeline.fromTo(
@@ -58,11 +56,7 @@ function SectionTurboGpu(): React.ReactElement {
     timeline.to('.section-turbo-gpu .headline-wrapper', { scale: 1 }, '<');
 
     timeline.to('.section-turbo-gpu .headline', { y: 0, duration: 1.5 });
-    timeline.to(
-      '.section-turbo-gpu .section-content',
-      { y: 0, duration: 1.5 },
-      '<'
-    );
+    timeline.to('.section-turbo-gpu .section-content', { y: 0, duration: 1.5 }, '<');
   });
 
   return (
@@ -72,18 +66,15 @@ function SectionTurboGpu(): React.ReactElement {
           <div className="turbo-os">
             <div className="fill-top"></div>
             <div className="fill-bottom"></div>
-            <img
-              src={getImageUrl('assets/section-turbo-gpu/turbo-gpu.svg')}
-              alt=""
-            />
+            <img src={getImageUrl('/src/assets/section-turbo-gpu/turbo-gpu.svg')} alt="" />
           </div>
           <div className="headline-wrapper">
             <div className="mask"></div>
-            <div className="title">帧率更高更稳定</div>
+            <h2 className="title">帧率更高更稳定</h2>
           </div>
         </div>
         <div className="section-content">
-          <img src={getImageUrl('assets/section-turbo-gpu/s7-01.png')} alt="" />
+          <img src={getImageUrl('/src/assets/section-turbo-gpu/s7-01.png')} alt="" />
         </div>
       </div>
     </section>

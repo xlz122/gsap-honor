@@ -18,31 +18,17 @@ function SectionMagicRing(): React.ReactElement {
     });
 
     timeline.set('.section-magic-ring .ring-svg', { yPercent: 80, scale: 5 });
-    timeline.set('.section-magic-ring .ring-path', {
-      stroke: '#d7a85b',
-      strokeWidth: 2
-    });
+    timeline.set('.section-magic-ring .ring-path', { stroke: '#D7A85B', strokeWidth: 2 });
 
-    timeline.to('.section-magic-ring .ring-path', {
-      strokeDasharray: '0% 0% 220%',
-      duration: 0.5
-    });
+    timeline.to('.section-magic-ring .ring-path', { strokeDasharray: '0% 0% 220%', duration: 0.5 });
 
-    timeline.to('.section-magic-ring .ring-svg', {
-      yPercent: 0,
-      scale: 0.8,
-      duration: 0.5
-    });
+    timeline.to('.section-magic-ring .ring-svg', { yPercent: 0, scale: 0.8, duration: 0.5 });
     timeline.to(
       '.section-magic-ring .ring-path',
       { stroke: '#000000', strokeWidth: 8, duration: 0.5 },
       '<'
     );
-    timeline.to(
-      '.section-magic-ring .ring-circle',
-      { opacity: 1, duration: 0.5 },
-      '<'
-    );
+    timeline.to('.section-magic-ring .ring-circle', { opacity: 1, duration: 0.5 }, '<');
 
     timeline.to('.section-magic-ring .title', { opacity: 1, duration: 0.5 });
 
@@ -52,10 +38,7 @@ function SectionMagicRing(): React.ReactElement {
       { y: 0, opacity: 1, duration: 1 }
     );
 
-    timeline.to('.section-magic-ring .section-wrapper', {
-      yPercent: -5,
-      duration: 1
-    });
+    timeline.to('.section-magic-ring .section-wrapper', { yPercent: -5, duration: 1 });
     timeline.fromTo(
       '.section-magic-ring .intro',
       { y: 60, opacity: 0 },
@@ -125,7 +108,7 @@ function SectionMagicRing(): React.ReactElement {
           </g>
         </svg>
         <h2 className="title">MagicRing 信任环</h2>
-        <p className="subtitle">智慧互联 再无界</p>
+        <h3 className="subtitle">智慧互联 再无界</h3>
         <a className="intro" href="/">
           查看智慧互联产品适配列表
         </a>
