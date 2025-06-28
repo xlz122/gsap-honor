@@ -29,7 +29,7 @@
           z-index: -1;
           width: calc(100% - 2px);
           height: 50%;
-          background-color: #ffffff;
+          background-color: #FFFFFF;
         }
 
         .fill-bottom {
@@ -37,9 +37,9 @@
           right: 1px;
           bottom: 1px;
           z-index: -1;
-          width: calc(100% - 2px);
+          width: 100%;
           height: 50%;
-          background-color: #ffffff;
+          background-color: #FFFFFF;
         }
 
         img {
@@ -56,7 +56,7 @@
           left: 0;
           width: 100%;
           height: 100%;
-          background-image: linear-gradient(90deg, #000 var(--gradient-left), transparent 50%, #000 var(--gradient-right));
+          background-image: linear-gradient(90deg, #000000 var(--gradient-left), transparent 50%, #000000 var(--gradient-right));
           --gradient-left: 50%;
           --gradient-right: 50%;
         }
@@ -65,7 +65,7 @@
           margin-block-start: 1.5625vw;
           font-family: "HYQiHei70S";
           font-size: 2.5vw;
-          color: #ffffff;
+          color: #FFFFFF;
         }
       }
     }

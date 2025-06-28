@@ -28,9 +28,7 @@ function SectionTurboLink(): React.ReactElement {
     timeline.set('.section-turbo-link .headline', {
       y: wrapperHeight / 2 - headlineHeight / 2 - headlineOffsetTop
     });
-    timeline.set('.section-turbo-link .section-content', {
-      y: wrapperHeight - headlineOffsetTop
-    });
+    timeline.set('.section-turbo-link .section-content', { y: wrapperHeight - headlineOffsetTop });
     timeline.set('.section-turbo-link .headline-wrapper', { scale: 0.666667 });
 
     timeline.fromTo(
@@ -58,11 +56,7 @@ function SectionTurboLink(): React.ReactElement {
     timeline.to('.section-turbo-link .headline-wrapper', { scale: 1 }, '<');
 
     timeline.to('.section-turbo-link .headline', { y: 0, duration: 1.5 });
-    timeline.to(
-      '.section-turbo-link .section-content',
-      { y: 0, duration: 1.5 },
-      '<'
-    );
+    timeline.to('.section-turbo-link .section-content', { y: 0, duration: 1.5 }, '<');
   });
 
   return (
@@ -72,35 +66,23 @@ function SectionTurboLink(): React.ReactElement {
           <div className="turbo-os">
             <div className="fill-top"></div>
             <div className="fill-bottom"></div>
-            <img
-              src={getImageUrl('assets/section-turbo-link/turbo-link.svg')}
-              alt=""
-            />
+            <img src={getImageUrl('/src/assets/section-turbo-link/turbo-link.svg')} alt="" />
           </div>
           <div className="headline-wrapper">
             <div className="mask"></div>
-            <div className="title">网络自主优选 通信稳定流畅</div>
+            <h2 className="title">网络自主优选 通信稳定流畅</h2>
           </div>
         </div>
         <div className="section-content">
-          <img
-            src={getImageUrl('assets/section-turbo-link/tower-white.svg')}
-            alt=""
-          />
+          <img src={getImageUrl('/src/assets/section-turbo-link/tower-white.svg')} alt="" />
           <div className="improved">
-            <p className="subtitle">蜂窝网络数据卡顿率</p>
+            <h3 className="subtitle">蜂窝网络数据卡顿率</h3>
             <div className="ratio">
-              <img
-                src={getImageUrl('assets/section-turbo-link/arrow-down.svg')}
-                alt=""
-              />
-              <p>83%</p>
+              <img src={getImageUrl('/src/assets/section-turbo-link/arrow-down.svg')} alt="" />
+              <span>83%</span>
             </div>
           </div>
-          <img
-            src={getImageUrl('assets/section-turbo-link/tower-blue.svg')}
-            alt=""
-          />
+          <img src={getImageUrl('/src/assets/section-turbo-link/tower-blue.svg')} alt="" />
         </div>
       </div>
     </section>

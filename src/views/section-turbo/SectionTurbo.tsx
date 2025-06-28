@@ -21,57 +21,25 @@ function SectionTurbo(): React.ReactElement {
     timeline.set('.section-turbo .turbo-path', { strokeWidth: 2 });
     timeline.set('.section-turbo .path-icon', { opacity: 0 });
 
-    timeline.to('.section-turbo .path-circle', {
-      strokeDasharray: '0% 0% 200%',
-      duration: 0.5
-    });
-    timeline.to('.section-turbo .path-circle', {
-      stroke: '#ffffff',
-      duration: 0.5
-    });
+    timeline.to('.section-turbo .path-circle', { strokeDasharray: '0% 0% 200%', duration: 0.5 });
+    timeline.to('.section-turbo .path-circle', { stroke: '#FFFFFF', duration: 0.5 });
 
-    timeline.to('.section-turbo .path-white .l1', {
-      strokeDasharray: '11% 11% 0%',
-      duration: 0.5
-    });
+    timeline.to('.section-turbo .path-white .l1', { strokeDasharray: '11% 11% 0%', duration: 0.5 });
     timeline.to(
       '.section-turbo .path-white .l2',
       { strokeDasharray: '0% 0% 11%', duration: 0.5 },
       '<'
     );
-    timeline.to(
-      '.section-turbo .path-icon',
-      { opacity: 1, duration: 0.5 },
-      '<'
-    );
+    timeline.to('.section-turbo .path-icon', { opacity: 1, duration: 0.5 }, '<');
 
-    timeline.to('.section-turbo .turbo-svg', {
-      yPercent: 0,
-      scale: 0.8,
-      duration: 0.5
-    });
-    timeline.to(
-      '.section-turbo .path-circle',
-      { strokeWidth: 9, duration: 0.5 },
-      '<'
-    );
-    timeline.to(
-      '.section-turbo .path-line',
-      { strokeWidth: 5, duration: 0.5 },
-      '<'
-    );
-    timeline.to(
-      '.section-turbo .path-icon',
-      { strokeWidth: 9, duration: 0.5 },
-      '<'
-    );
+    timeline.to('.section-turbo .turbo-svg', { yPercent: 0, scale: 0.8, duration: 0.5 });
+    timeline.to('.section-turbo .path-circle', { strokeWidth: 9, duration: 0.5 }, '<');
+    timeline.to('.section-turbo .path-line', { strokeWidth: 5, duration: 0.5 }, '<');
+    timeline.to('.section-turbo .path-icon', { strokeWidth: 9, duration: 0.5 }, '<');
 
     timeline.to('.section-turbo .title', { opacity: 1, duration: 0.5 });
 
-    timeline.to('.section-turbo .section-wrapper', {
-      yPercent: -5,
-      duration: 1
-    });
+    timeline.to('.section-turbo .section-wrapper', { yPercent: -5, duration: 1 });
     timeline.fromTo(
       '.section-turbo .subtitle',
       { y: 60, opacity: 0 },
@@ -99,7 +67,7 @@ function SectionTurbo(): React.ReactElement {
                 <path
                   className="turbo-path path-circle"
                   d="M142.915808,147.793341 C156.914565,134.072229 165.6,114.95041 165.6,93.8 C165.6,52.0472729 131.752727,18.2 90,18.2 C48.2472729,18.2 14.4,52.0472729 14.4,93.8 C14.4,114.901577 23.0453746,133.983919 36.9873129,147.698214"
-                  stroke="#d7a85b"
+                  stroke="#D7A85B"
                   strokeWidth="9"
                   strokeLinecap="round"
                   strokeDasharray="0 200% 0"
@@ -118,13 +86,7 @@ function SectionTurbo(): React.ReactElement {
                     x2="19.40625"
                     y2="62.1"
                   ></line>
-                  <line
-                    className="l2"
-                    x1="104.79375"
-                    y1="62.1"
-                    x2="124.2"
-                    y2="62.1"
-                  ></line>
+                  <line className="l2" x1="104.79375" y1="62.1" x2="124.2" y2="62.1"></line>
                   <line
                     className="l1"
                     x1="3.2651028"
@@ -253,13 +215,7 @@ function SectionTurbo(): React.ReactElement {
                     x2="19.40625"
                     y2="62.1"
                   ></line>
-                  <line
-                    className="l2"
-                    x1="104.79375"
-                    y1="62.1"
-                    x2="124.2"
-                    y2="62.1"
-                  ></line>
+                  <line className="l2" x1="104.79375" y1="62.1" x2="124.2" y2="62.1"></line>
                   <line
                     className="l1"
                     x1="3.2651028"
@@ -387,7 +343,7 @@ function SectionTurbo(): React.ReactElement {
           </g>
         </svg>
         <h2 className="title">Turbo X 系统引擎</h2>
-        <p className="subtitle">流畅性能 久用如新</p>
+        <h3 className="subtitle">流畅性能 久用如新</h3>
       </div>
     </section>
   );

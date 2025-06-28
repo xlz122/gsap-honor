@@ -1,11 +1,15 @@
 @font-face {
-  font-family: "HYQiHei50S";
-  src: url("/font/HYQiHei-50S.woff");
+  font-family: 'HYQiHei50S';
+  src: url('/font/HYQiHei-50S.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: "HYQiHei70S";
-  src: url("/font/HYQiHei-70S.woff");
+  font-family: 'HYQiHei70S';
+  src: url('/font/HYQiHei-70S.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 * {
@@ -14,20 +18,16 @@
 }
 
 body {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 12px;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
+  font-family: 'HYQiHei50S', 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 12px;
   color: #333333;
 }
 
 #root {
   width: 100%;
   min-width: 1200px;
-  height: 100%;
-  font-family: "HYQiHei50S";
 }
 
 ul li {
@@ -36,24 +36,4 @@ ul li {
 
 a {
   text-decoration: none;
-  cursor: pointer;
-}
-
-input,
-textarea {
-  background-color: #ffffff;
-}
-
-i,
-img {
-  display: inline-block;
-}
-
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #c0c4cc;
-  border-radius: 4px
 }

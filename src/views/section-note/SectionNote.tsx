@@ -76,7 +76,7 @@ function SectionNote(): React.ReactElement {
               </div>
               <img
                 className="cover"
-                src={getImageUrl('assets/section-note/s2-01.jpg')}
+                src={getImageUrl('/src/assets/section-note/s2-01.jpg')}
                 alt=""
               />
             </div>
@@ -99,7 +99,7 @@ function SectionNote(): React.ReactElement {
               </div>
               <img
                 className="cover"
-                src={getImageUrl('assets/section-note/s2-01.jpg')}
+                src={getImageUrl('/src/assets/section-note/s2-01.jpg')}
                 alt=""
               />
             </div>

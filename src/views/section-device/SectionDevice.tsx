@@ -13,9 +13,7 @@ function SectionTvc(): React.ReactElement {
       trigger: '.section-device',
       start: 'top 85%',
       onToggle: ({ isActive }) => {
-        if (!isActive) {
-          return;
-        }
+        if (!isActive) return;
 
         const timeline = gsap.timeline();
 
@@ -30,12 +28,7 @@ function SectionTvc(): React.ReactElement {
           { y: 0, opacity: 1, duration: 0.5 }
         );
 
-        timeline.fromTo(
-          '.section-device .pc',
-          { opacity: 0 },
-          { opacity: 1, duration: 0.6 },
-          0
-        );
+        timeline.fromTo('.section-device .pc', { opacity: 0 }, { opacity: 1, duration: 0.6 }, 0);
         timeline.fromTo(
           '.section-device .ipad',
           { opacity: 0 },
@@ -66,19 +59,11 @@ function SectionTvc(): React.ReactElement {
           </p>
         </div>
         <div className="image-content">
-          <img
-            className="pc"
-            src={getImageUrl('assets/section-device/s3-01.png')}
-            alt=""
-          />
-          <img
-            className="ipad"
-            src={getImageUrl('assets/section-device/s3-02.png')}
-            alt=""
-          />
+          <img className="pc" src={getImageUrl('/src/assets/section-device/s3-01.png')} alt="" />
+          <img className="ipad" src={getImageUrl('/src/assets/section-device/s3-02.png')} alt="" />
           <img
             className="mobile"
-            src={getImageUrl('assets/section-device/s3-03.png')}
+            src={getImageUrl('/src/assets/section-device/s3-03.png')}
             alt=""
           />
         </div>

@@ -72,7 +72,7 @@ function SectionNotice(): React.ReactElement {
               </div>
               <img
                 className="cover"
-                src={getImageUrl('assets/section-notice/s1-01.jpg')}
+                src={getImageUrl('/src/assets/section-notice/s1-01.jpg')}
                 alt=""
               />
             </div>
@@ -93,7 +93,7 @@ function SectionNotice(): React.ReactElement {
               </div>
               <img
                 className="cover"
-                src={getImageUrl('assets/section-notice/s1-02.jpg')}
+                src={getImageUrl('/src/assets/section-notice/s1-02.jpg')}
                 alt=""
               />
             </div>

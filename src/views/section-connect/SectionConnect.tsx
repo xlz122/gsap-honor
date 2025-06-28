@@ -24,11 +24,7 @@ function SectionConnect(props: Props): React.ReactElement {
       start: 'top 70%',
       onToggle: ({ isActive }) => {
         if (!isActive) {
-          gsap.to(videoInfoRef.current, {
-            y: 50,
-            opacity: 0,
-            duration: 0.5
-          });
+          gsap.to(videoInfoRef.current, { y: 50, opacity: 0, duration: 0.5 });
           return;
         }
 
@@ -44,19 +40,11 @@ function SectionConnect(props: Props): React.ReactElement {
       start: 'top center',
       onToggle: ({ isActive }) => {
         if (!isActive) {
-          gsap.to(videoRef.current, {
-            y: 50,
-            opacity: 0,
-            duration: 0.5
-          });
+          gsap.to(videoRef.current, { y: 50, opacity: 0, duration: 0.5 });
           return;
         }
 
-        gsap.fromTo(
-          videoRef.current,
-          { y: 50, opacity: 0 },
-          { y: 0, opacity: 1, duration: 0.5 }
-        );
+        gsap.fromTo(videoRef.current, { y: 50, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5 });
       }
     });
   });
@@ -69,12 +57,12 @@ function SectionConnect(props: Props): React.ReactElement {
             className="title"
             dangerouslySetInnerHTML={{ __html: props.title?.join?.('<br />') }}
           ></h2>
-          <h2
+          <p
             className="intro"
             dangerouslySetInnerHTML={{ __html: props.intro?.join?.('<br />') }}
-          ></h2>
+          ></p>
         </div>
-        <video className="video" autoPlay playsInline loop muted ref={videoRef}>
+        <video className="video" ref={videoRef} autoPlay playsInline loop muted>
           <source src={getImageUrl(props.videoURL)} />
         </video>
       </div>

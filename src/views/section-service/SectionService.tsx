@@ -50,8 +50,7 @@ function SectionService(): React.ReactElement {
           <div className="image-info left-info">
             <h2 className="title">人因优化 顺畅出行</h2>
             <p className="intro">
-              YOYO
-              建议综合考虑你的当前位置、出发地天气、实时路况以及个人航旅习惯等多个因素，
+              YOYO 建议综合考虑你的当前位置、出发地天气、实时路况以及个人航旅习惯等多个因素，
               为你提供最适合的航旅出行建议，让航班出票、出发提醒、值机、登机等信息适时呈现。
             </p>
           </div>
@@ -66,17 +65,17 @@ function SectionService(): React.ReactElement {
           <div className="image-content">
             <img
               className="mobile"
-              src={getImageUrl('assets/section-service/s4-01.png')}
+              src={getImageUrl('/src/assets/section-service/s4-01.png')}
               alt=""
             />
             <img
               className="plan"
-              src={getImageUrl('assets/section-service/s4-02.png')}
+              src={getImageUrl('/src/assets/section-service/s4-02.png')}
               alt=""
             />
             <img
               className="schedule"
-              src={getImageUrl('assets/section-service/s4-03.png')}
+              src={getImageUrl('/src/assets/section-service/s4-03.png')}
               alt=""
             />
           </div>
