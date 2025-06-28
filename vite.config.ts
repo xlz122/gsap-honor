@@ -22,14 +22,12 @@ export default () => {
       assetsDir: 'static',
       sourcemap: false,
       rollupOptions: {
-        // js/css/img分不同文件夹存放
         output: {
           chunkFileNames: 'static/js/[name]-[hash].js',
           entryFileNames: 'static/js/[name]-[hash].js',
           assetFileNames: 'static/[ext]/name-[hash].[ext]'
         }
       },
-      // 混淆器(构建后文件体积更小)
       minify: 'terser',
       terserOptions: {
         compress: {
@@ -37,9 +35,7 @@ export default () => {
           drop_debugger: true,
           pure_funcs: ['console.log', 'console.dir']
         },
-        output: {
-          comments: false
-        }
+        output: { comments: false }
       }
     }
   });

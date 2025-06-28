@@ -22,13 +22,13 @@ function SectionHero(): React.ReactElement {
       <div className="section-wrapper">
         <img
           className="cover"
-          src={getImageUrl('assets/section-hero/magic-kv.png')}
+          src={getImageUrl('/src/assets/section-hero/magic-kv.png')}
           alt=""
         />
         <div className="content">
           <img
             className="magic-os"
-            src={getImageUrl('assets/section-hero/magic-os.svg')}
+            src={getImageUrl('/src/assets/section-hero/magic-os.svg')}
             alt=""
           />
           <h2 className="slogan">越用越好用 越用越懂你</h2>

@@ -19,7 +19,7 @@ function SectionMagicRing(): React.ReactElement {
 
     timeline.set('.section-magic-ring .ring-svg', { yPercent: 80, scale: 5 });
     timeline.set('.section-magic-ring .ring-path', {
-      stroke: '#d7a85b',
+      stroke: '#D7A85B',
       strokeWidth: 2
     });
 
