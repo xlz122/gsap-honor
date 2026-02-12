@@ -19,7 +19,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "22.12.0"
+          node-version: "24.12.0"
 
       # 下载依赖、打包项目
       - name: Install and Build
