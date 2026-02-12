@@ -13,8 +13,8 @@ function SectionFlowDesign(): React.ReactElement {
         trigger: '.section-flow-design .section-wrapper',
         start: 'top 65px',
         pin: true,
-        scrub: 0.5
-      }
+        scrub: 0.5,
+      },
     });
 
     timeline.to('.section-flow-design .title', { opacity: 1 });

@@ -17,8 +17,8 @@ function SectionTurboOS(): React.ReactElement {
         trigger: '.section-turbo-os .section-wrapper',
         start: 'top 65px',
         pin: true,
-        scrub: 0.5
-      }
+        scrub: 0.5,
+      },
     });
 
     const wrapperHeight = wrapperRef.current?.clientHeight ?? 0;
@@ -26,7 +26,7 @@ function SectionTurboOS(): React.ReactElement {
     const headlineOffsetTop = headlineRef.current?.offsetTop ?? 0;
 
     timeline.set('.section-turbo-os .headline', {
-      y: wrapperHeight / 2 - headlineHeight / 2 - headlineOffsetTop
+      y: wrapperHeight / 2 - headlineHeight / 2 - headlineOffsetTop,
     });
     timeline.set('.section-turbo-os .section-content', { y: wrapperHeight - headlineOffsetTop });
     timeline.set('.section-turbo-os .headline-wrapper', { scale: 0.666667 });
@@ -35,12 +35,12 @@ function SectionTurboOS(): React.ReactElement {
       '.section-turbo-os .headline-wrapper .mask',
       {
         '--gradient-left': '50%',
-        '--gradient-right': '50%'
+        '--gradient-right': '50%',
       },
       {
         '--gradient-left': '0%',
-        '--gradient-right': '100%'
-      }
+        '--gradient-right': '100%',
+      },
     );
 
     timeline.from('.section-turbo-os .fill-top', { xPercent: 100 });
@@ -49,7 +49,7 @@ function SectionTurboOS(): React.ReactElement {
       '.section-turbo-os .headline-wrapper .mask',
       { autoAlpha: 1 },
       { autoAlpha: 0 },
-      '<'
+      '<',
     );
 
     timeline.to('.section-turbo-os .turbo-os', { scale: 0.4, opacity: 0.6 });
@@ -66,7 +66,7 @@ function SectionTurboOS(): React.ReactElement {
           <div className="turbo-os">
             <div className="fill-top"></div>
             <div className="fill-bottom"></div>
-            <img src={getImageUrl('/src/assets/section-turbo-os/turbo-os.svg')} alt="" />
+            <img src={getImageUrl('/src/assets/images/section-turbo-os/turbo-os.svg')} alt="" />
           </div>
           <div className="headline-wrapper">
             <div className="mask"></div>
@@ -80,14 +80,20 @@ function SectionTurboOS(): React.ReactElement {
               <div className="improved-item">
                 <p className="intro">应用滑动卡顿率</p>
                 <div className="ratio">
-                  <img src={getImageUrl('/src/assets/section-turbo-os/arrow-down.svg')} alt="" />
+                  <img
+                    src={getImageUrl('/src/assets/images/section-turbo-os/icon-arrow.svg')}
+                    alt=""
+                  />
                   <span>43%</span>
                 </div>
               </div>
               <div className="improved-item">
                 <p className="intro">应用启动响应时延</p>
                 <div className="ratio">
-                  <img src={getImageUrl('/src/assets/section-turbo-os/arrow-down.svg')} alt="" />
+                  <img
+                    src={getImageUrl('/src/assets/images/section-turbo-os/icon-arrow.svg')}
+                    alt=""
+                  />
                   <span>29%</span>
                 </div>
               </div>
@@ -100,14 +106,20 @@ function SectionTurboOS(): React.ReactElement {
               <div className="improved-item">
                 <p className="intro">视频聊天</p>
                 <div className="ratio">
-                  <img src={getImageUrl('/src/assets/section-turbo-os/arrow-up.svg')} alt="" />
+                  <img
+                    src={getImageUrl('/src/assets/images/section-turbo-os/icon-arrow.svg')}
+                    alt=""
+                  />
                   <span>20分钟</span>
                 </div>
               </div>
               <div className="improved-item">
                 <p className="intro">刷短视频</p>
                 <div className="ratio">
-                  <img src={getImageUrl('/src/assets/section-turbo-os/arrow-up.svg')} alt="" />
+                  <img
+                    src={getImageUrl('/src/assets/images/section-turbo-os/icon-arrow.svg')}
+                    alt=""
+                  />
                   <span>30分钟</span>
                 </div>
               </div>

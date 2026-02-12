@@ -20,12 +20,12 @@ function SectionTvc(): React.ReactElement {
         timeline.fromTo(
           '.section-device .title',
           { y: 50, opacity: 0 },
-          { y: 0, opacity: 1, duration: 0.5 }
+          { y: 0, opacity: 1, duration: 0.5 },
         );
         timeline.fromTo(
           '.section-device .intro',
           { y: 50, opacity: 0 },
-          { y: 0, opacity: 1, duration: 0.5 }
+          { y: 0, opacity: 1, duration: 0.5 },
         );
 
         timeline.fromTo('.section-device .pc', { opacity: 0 }, { opacity: 1, duration: 0.6 }, 0);
@@ -33,15 +33,15 @@ function SectionTvc(): React.ReactElement {
           '.section-device .ipad',
           { opacity: 0 },
           { opacity: 1, duration: 0.6 },
-          0.5
+          0.5,
         );
         timeline.fromTo(
           '.section-device .mobile',
           { opacity: 0 },
           { opacity: 1, duration: 0.6 },
-          1
+          1,
         );
-      }
+      },
     });
   });
 
@@ -59,11 +59,19 @@ function SectionTvc(): React.ReactElement {
           </p>
         </div>
         <div className="image-content">
-          <img className="pc" src={getImageUrl('/src/assets/section-device/s3-01.png')} alt="" />
-          <img className="ipad" src={getImageUrl('/src/assets/section-device/s3-02.png')} alt="" />
+          <img
+            className="pc"
+            src={getImageUrl('/src/assets/images/section-device/device-01.png')}
+            alt=""
+          />
+          <img
+            className="ipad"
+            src={getImageUrl('/src/assets/images/section-device/device-02.png')}
+            alt=""
+          />
           <img
             className="mobile"
-            src={getImageUrl('/src/assets/section-device/s3-03.png')}
+            src={getImageUrl('/src/assets/images/section-device/device-03.png')}
             alt=""
           />
         </div>

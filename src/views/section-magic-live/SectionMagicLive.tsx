@@ -13,8 +13,8 @@ function SectionMagicLive(): React.ReactElement {
         trigger: '.section-magic-live .section-wrapper',
         start: 'top 65px',
         pin: true,
-        scrub: 0.5
-      }
+        scrub: 0.5,
+      },
     });
 
     timeline.set('.section-magic-live .live-svg', { yPercent: 50, scale: 3.6 });
@@ -26,7 +26,7 @@ function SectionMagicLive(): React.ReactElement {
     timeline.to('.section-magic-live .live-svg', {
       yPercent: 0,
       scale: 0.8,
-      duration: 0.5
+      duration: 0.5,
     });
     timeline.to('.section-magic-live .live-path', { strokeWidth: 9, duration: 0.5 }, '<');
 
@@ -37,7 +37,7 @@ function SectionMagicLive(): React.ReactElement {
       '.section-magic-live .subtitle',
       { y: 60, opacity: 0 },
       { y: 0, opacity: 1, duration: 1 },
-      '<'
+      '<',
     );
   });
 

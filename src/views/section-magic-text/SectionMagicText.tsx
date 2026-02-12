@@ -20,10 +20,10 @@ function SectionMagicText(): React.ReactElement {
         trigger: '.section-magic-text',
         start: 'top 65px',
         end: `bottom +=${scrollWidth / 3}`,
-        scrub: 0
+        scrub: 0,
       },
       x: -(scrollWidth + offsetLeft * 2 - clientWidth),
-      ease: 'none'
+      ease: 'none',
     });
 
     gsap.to('.section-magic-text .card-blur-1 .card-content', {
@@ -31,11 +31,11 @@ function SectionMagicText(): React.ReactElement {
         trigger: '.section-magic-text',
         start: 'top 65px',
         end: 'center 100%',
-        scrub: 0
+        scrub: 0,
       },
       filter: 'blur(0px)',
       scale: 1,
-      ease: 'none'
+      ease: 'none',
     });
 
     gsap.to('.section-magic-text .card-blur-2 .card-content', {
@@ -43,11 +43,11 @@ function SectionMagicText(): React.ReactElement {
         trigger: '.section-magic-text',
         start: 'top -100%',
         end: 'bottom bottom',
-        scrub: 0
+        scrub: 0,
       },
       filter: 'blur(0px)',
       scale: 1,
-      ease: 'none'
+      ease: 'none',
     });
   });
 
@@ -68,7 +68,7 @@ function SectionMagicText(): React.ReactElement {
               </div>
               <img
                 className="cover"
-                src={getImageUrl('/src/assets/section-magic-text/s6-01.jpg')}
+                src={getImageUrl('/src/assets/images/section-magic-text/magic-text-01.jpg')}
                 alt=""
               />
             </div>
@@ -87,7 +87,7 @@ function SectionMagicText(): React.ReactElement {
               </div>
               <img
                 className="cover"
-                src={getImageUrl('/src/assets/section-magic-text/s6-02.jpg')}
+                src={getImageUrl('/src/assets/images/section-magic-text/magic-text-02.jpg')}
                 alt=""
               />
             </div>
@@ -104,7 +104,7 @@ function SectionMagicText(): React.ReactElement {
               </div>
               <img
                 className="cover"
-                src={getImageUrl('/src/assets/section-magic-text/s6-02.jpg')}
+                src={getImageUrl('/src/assets/images/section-magic-text/magic-text-02.jpg')}
                 alt=""
               />
             </div>

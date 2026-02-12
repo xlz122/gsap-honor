@@ -31,9 +31,9 @@ function SectionConnect(props: Props): React.ReactElement {
         gsap.fromTo(
           videoInfoRef.current,
           { y: 50, opacity: 0 },
-          { y: 0, opacity: 1, duration: 0.5 }
+          { y: 0, opacity: 1, duration: 0.5 },
         );
-      }
+      },
     });
     ScrollTrigger.create({
       trigger: connectRef.current,
@@ -45,7 +45,7 @@ function SectionConnect(props: Props): React.ReactElement {
         }
 
         gsap.fromTo(videoRef.current, { y: 50, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5 });
-      }
+      },
     });
   });
 

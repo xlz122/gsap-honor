@@ -18,7 +18,7 @@
       width: 100%;
       margin-inline-start: 33.75vw;
       margin-block-end: 2.083333vw;
-      font-family: "HYQiHei70S";
+      font-family: 'HYQiHei-70S';
       font-size: 2.5vw;
       color: rgba(0, 0, 0, 0.8);
     }
@@ -56,15 +56,15 @@
           padding-inline: 3.125vw;
 
           .subtitle {
-            font-family: "HYQiHei70S";
+            font-family: 'HYQiHei-70S';
             font-size: 1.666667vw;
             color: rgba(0, 0, 0, 0.8);
           }
 
           .intro {
-            line-height: 1.5;
             font-size: 0.9375vw;
             color: rgba(0, 0, 0, 0.5);
+            line-height: 1.5;
           }
         }
 

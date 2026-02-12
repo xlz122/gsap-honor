@@ -3,8 +3,8 @@ import './header.scss';
 
 function Header(): React.ReactElement {
   return (
-    <div className="header">
-      <div className="header-wrapper">
+    <div className="header__box">
+      <div className="header__wrapper">
         <i className="logo"></i>
         <ul className="nav-list">
           <li className="item">手机</li>

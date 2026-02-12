@@ -17,8 +17,8 @@ function SectionTurboLink(): React.ReactElement {
         trigger: '.section-turbo-link .section-wrapper',
         start: 'top 65px',
         pin: true,
-        scrub: 0.5
-      }
+        scrub: 0.5,
+      },
     });
 
     const wrapperHeight = wrapperRef.current?.clientHeight ?? 0;
@@ -26,7 +26,7 @@ function SectionTurboLink(): React.ReactElement {
     const headlineOffsetTop = headlineRef.current?.offsetTop ?? 0;
 
     timeline.set('.section-turbo-link .headline', {
-      y: wrapperHeight / 2 - headlineHeight / 2 - headlineOffsetTop
+      y: wrapperHeight / 2 - headlineHeight / 2 - headlineOffsetTop,
     });
     timeline.set('.section-turbo-link .section-content', { y: wrapperHeight - headlineOffsetTop });
     timeline.set('.section-turbo-link .headline-wrapper', { scale: 0.666667 });
@@ -35,12 +35,12 @@ function SectionTurboLink(): React.ReactElement {
       '.section-turbo-link .headline-wrapper .mask',
       {
         '--gradient-left': '50%',
-        '--gradient-right': '50%'
+        '--gradient-right': '50%',
       },
       {
         '--gradient-left': '0%',
-        '--gradient-right': '100%'
-      }
+        '--gradient-right': '100%',
+      },
     );
 
     timeline.from('.section-turbo-link .fill-top', { xPercent: 100 });
@@ -49,7 +49,7 @@ function SectionTurboLink(): React.ReactElement {
       '.section-turbo-link .headline-wrapper .mask',
       { autoAlpha: 1 },
       { autoAlpha: 0 },
-      '<'
+      '<',
     );
 
     timeline.to('.section-turbo-link .turbo-os', { scale: 0.4, opacity: 0.6 });
@@ -66,7 +66,7 @@ function SectionTurboLink(): React.ReactElement {
           <div className="turbo-os">
             <div className="fill-top"></div>
             <div className="fill-bottom"></div>
-            <img src={getImageUrl('/src/assets/section-turbo-link/turbo-link.svg')} alt="" />
+            <img src={getImageUrl('/src/assets/images/section-turbo-link/turbo-link.svg')} alt="" />
           </div>
           <div className="headline-wrapper">
             <div className="mask"></div>
@@ -74,15 +74,18 @@ function SectionTurboLink(): React.ReactElement {
           </div>
         </div>
         <div className="section-content">
-          <img src={getImageUrl('/src/assets/section-turbo-link/tower-white.svg')} alt="" />
+          <img src={getImageUrl('/src/assets/images/section-turbo-link/tower-white.svg')} alt="" />
           <div className="improved">
             <h3 className="subtitle">蜂窝网络数据卡顿率</h3>
             <div className="ratio">
-              <img src={getImageUrl('/src/assets/section-turbo-link/arrow-down.svg')} alt="" />
+              <img
+                src={getImageUrl('/src/assets/images/section-turbo-link/icon-arrow.svg')}
+                alt=""
+              />
               <span>83%</span>
             </div>
           </div>
-          <img src={getImageUrl('/src/assets/section-turbo-link/tower-blue.svg')} alt="" />
+          <img src={getImageUrl('/src/assets/images/section-turbo-link/tower-blue.svg')} alt="" />
         </div>
       </div>
     </section>

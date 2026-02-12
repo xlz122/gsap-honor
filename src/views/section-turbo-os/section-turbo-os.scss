@@ -64,7 +64,7 @@
 
         .title {
           margin-block-start: 1.5625vw;
-          font-family: "HYQiHei70S";
+          font-family: 'HYQiHei-70S';
           font-size: 2.5vw;
           color: #FFFFFF;
         }
@@ -80,7 +80,7 @@
         text-align: center;
 
         .subtitle {
-          font-family: "HYQiHei70S";
+          font-family: 'HYQiHei-70S';
           font-size: 1.666667vw;
           color: #FFFFFF;
         }
@@ -93,9 +93,9 @@
 
           .improved-item {
             .intro {
-              line-height: 1.5;
               font-size: 0.9375vw;
               color: #FFFFFF;
+              line-height: 1.5;
             }
 
             .ratio {
@@ -109,24 +109,20 @@
               }
 
               span {
-                font-family: "HYQiHei70S";
+                background-image: linear-gradient(#97DEFF, #1D3DE5);
+                background-clip: text;
+                font-family: 'HYQiHei-70S';
                 font-size: 4.856183vw;
                 font-weight: 600;
-                color: #FFFFFF;
-                background-image: linear-gradient(#97DEFF, #1D3DE5);
-                -webkit-background-clip: text;
-                background-clip: text;
-                box-decoration-break: clone;
-                -webkit-box-decoration-break: clone;
-                -webkit-text-fill-color: transparent;
-
-                span {
-                  font-size: 2.604167vw;
-                }
+                color: transparent;
               }
             }
           }
         }
+      }
+
+      .performance:last-child img {
+        transform: rotate(180deg);
       }
 
       .divider {

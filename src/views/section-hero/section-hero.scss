@@ -18,7 +18,7 @@
       .content {
         transform: translate3d(0, -60px, 0);
 
-        .magic-os {
+        .hero-os {
           opacity: 1;
         }
 
@@ -43,7 +43,7 @@
       text-align: center;
       transition: 1s 0.5s;
 
-      .magic-os {
+      .hero-os {
         width: 20.572917vw;
         height: 100%;
         opacity: 0;
@@ -52,7 +52,7 @@
 
       .slogan {
         margin-block-start: 1.5625vw;
-        font-family: "HYQiHei70S";
+        font-family: 'HYQiHei-70S';
         font-size: 1.666667vw;
         color: #FFFFFF;
         opacity: 0;

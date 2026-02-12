@@ -14,8 +14,8 @@ function SectionService(): React.ReactElement {
         trigger: '.section-service',
         start: 'top 50%',
         end: 'bottom 100%',
-        scrub: 0.5
-      }
+        scrub: 0.5,
+      },
     });
 
     timeline.from('.section-service .image-content', { scale: 0.9 });
@@ -65,17 +65,17 @@ function SectionService(): React.ReactElement {
           <div className="image-content">
             <img
               className="mobile"
-              src={getImageUrl('/src/assets/section-service/s4-01.png')}
+              src={getImageUrl('/src/assets/images/section-service/service-01.png')}
               alt=""
             />
             <img
               className="plan"
-              src={getImageUrl('/src/assets/section-service/s4-02.png')}
+              src={getImageUrl('/src/assets/images/section-service/service-02.png')}
               alt=""
             />
             <img
               className="schedule"
-              src={getImageUrl('/src/assets/section-service/s4-03.png')}
+              src={getImageUrl('/src/assets/images/section-service/service-03.png')}
               alt=""
             />
           </div>

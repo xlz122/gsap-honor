@@ -20,10 +20,10 @@ function SectionNote(): React.ReactElement {
         trigger: '.section-note',
         start: 'top 65px',
         end: 'bottom 100%',
-        scrub: 0
+        scrub: 0,
       },
       x: -(scrollWidth + offsetLeft * 2 - clientWidth),
-      ease: 'none'
+      ease: 'none',
     });
 
     gsap.to('.section-note .card-blur .card-content', {
@@ -31,11 +31,11 @@ function SectionNote(): React.ReactElement {
         trigger: '.section-note',
         start: 'top 65px',
         end: 'center 100%',
-        scrub: 0
+        scrub: 0,
       },
       filter: 'blur(0px)',
       scale: 1,
-      ease: 'none'
+      ease: 'none',
     });
 
     gsap.to('.section-note .card-offset', {
@@ -43,10 +43,10 @@ function SectionNote(): React.ReactElement {
         trigger: '.section-note',
         start: 'center center',
         end: 'bottom bottom',
-        scrub: 0
+        scrub: 0,
       },
       x: -offsetLeft,
-      ease: 'none'
+      ease: 'none',
     });
   });
 
@@ -76,7 +76,7 @@ function SectionNote(): React.ReactElement {
               </div>
               <img
                 className="cover"
-                src={getImageUrl('/src/assets/section-note/s2-01.jpg')}
+                src={getImageUrl('/src/assets/images/section-note/note-01.jpg')}
                 alt=""
               />
             </div>
@@ -99,7 +99,7 @@ function SectionNote(): React.ReactElement {
               </div>
               <img
                 className="cover"
-                src={getImageUrl('/src/assets/section-note/s2-01.jpg')}
+                src={getImageUrl('/src/assets/images/section-note/note-01.jpg')}
                 alt=""
               />
             </div>

@@ -13,8 +13,8 @@ function SectionMagicRing(): React.ReactElement {
         trigger: '.section-magic-ring',
         start: 'top 65px',
         end: 'bottom 100%',
-        scrub: 0.5
-      }
+        scrub: 0.5,
+      },
     });
 
     timeline.set('.section-magic-ring .ring-svg', { yPercent: 80, scale: 5 });
@@ -26,7 +26,7 @@ function SectionMagicRing(): React.ReactElement {
     timeline.to(
       '.section-magic-ring .ring-path',
       { stroke: '#000000', strokeWidth: 8, duration: 0.5 },
-      '<'
+      '<',
     );
     timeline.to('.section-magic-ring .ring-circle', { opacity: 1, duration: 0.5 }, '<');
 
@@ -35,7 +35,7 @@ function SectionMagicRing(): React.ReactElement {
     timeline.fromTo(
       '.section-magic-ring .subtitle',
       { y: 60, opacity: 0 },
-      { y: 0, opacity: 1, duration: 1 }
+      { y: 0, opacity: 1, duration: 1 },
     );
 
     timeline.to('.section-magic-ring .section-wrapper', { yPercent: -5, duration: 1 });
@@ -43,7 +43,7 @@ function SectionMagicRing(): React.ReactElement {
       '.section-magic-ring .intro',
       { y: 60, opacity: 0 },
       { y: 0, opacity: 1, duration: 1 },
-      '<'
+      '<',
     );
   });
 

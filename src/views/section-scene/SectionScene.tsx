@@ -14,7 +14,11 @@ function SectionScene(): React.ReactElement {
             替您管理 地铁通勤、无忧打卡、健康码、付款码、惬意观影、快递提醒、充电提醒等多个场景。
           </p>
         </div>
-        <img className="cover" src={getImageUrl('/src/assets/section-scene/s5-01.png')} alt="" />
+        <img
+          className="cover"
+          src={getImageUrl('/src/assets/images/section-scene/scene-01.png')}
+          alt=""
+        />
       </div>
     </section>
   );

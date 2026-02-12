@@ -13,8 +13,8 @@ function SectionTurbo(): React.ReactElement {
         trigger: '.section-magic-guard .section-wrapper',
         start: 'top 65px',
         pin: true,
-        scrub: 0.5
-      }
+        scrub: 0.5,
+      },
     });
 
     timeline.set('.section-magic-guard .guard-svg', { yPercent: 50, scale: 3.6 });
@@ -23,7 +23,7 @@ function SectionTurbo(): React.ReactElement {
 
     timeline.to('.section-magic-guard .path-line', {
       strokeDasharray: '0% 0% 260%',
-      duration: 0.5
+      duration: 0.5,
     });
 
     timeline.to('.section-magic-guard .path-line', { stroke: '#FFFFFF', duration: 0.5 });
@@ -32,7 +32,7 @@ function SectionTurbo(): React.ReactElement {
     timeline.to('.section-magic-guard .guard-svg', {
       yPercent: 0,
       scale: 0.8,
-      duration: 0.5
+      duration: 0.5,
     });
     timeline.to('.section-magic-guard .guard-path', { strokeWidth: 9, duration: 0.5 }, '<');
 
@@ -41,7 +41,7 @@ function SectionTurbo(): React.ReactElement {
     timeline.fromTo(
       '.section-magic-guard .subtitle',
       { y: 60, opacity: 0 },
-      { y: 0, opacity: 1, duration: 1 }
+      { y: 0, opacity: 1, duration: 1 },
     );
 
     timeline.to('.section-magic-guard .section-wrapper', { yPercent: -5, duration: 1 });
@@ -49,7 +49,7 @@ function SectionTurbo(): React.ReactElement {
       '.section-magic-guard .intro',
       { y: 60, opacity: 0 },
       { y: 0, opacity: 1, duration: 1 },
-      '<'
+      '<',
     );
   });
 

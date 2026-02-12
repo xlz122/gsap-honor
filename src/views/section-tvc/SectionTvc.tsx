@@ -7,7 +7,7 @@ function SectionTvc(): React.ReactElement {
     <section className="section-tvc">
       <div className="section-wrapper">
         <video autoPlay playsInline loop muted>
-          <source src={getImageUrl('/src/assets/section-tvc/tvc-glance.mp4')} />
+          <source src={getImageUrl('/src/assets/images/section-tvc/tvc.mp4')} />
         </video>
       </div>
     </section>

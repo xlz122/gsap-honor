@@ -17,7 +17,7 @@
       width: 17.708333vw;
 
       .title {
-        font-family: "HYQiHei70S";
+        font-family: 'HYQiHei-70S';
         font-size: 2.5vw;
         color: rgba(0, 0, 0, 0.8);
         opacity: 0;
@@ -25,9 +25,9 @@
 
       .intro {
         margin-block-start: 1.5625vw;
-        line-height: 1.5;
         font-size: 0.9375vw;
         color: rgba(0, 0, 0, 0.5);
+        line-height: 1.5;
         opacity: 0;
       }
     }

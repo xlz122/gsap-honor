@@ -20,10 +20,10 @@ function SectionNotice(): React.ReactElement {
         trigger: '.section-notice',
         start: 'top 65px',
         end: 'bottom 100%',
-        scrub: 0
+        scrub: 0,
       },
       x: -(scrollWidth + offsetLeft * 2 - clientWidth),
-      ease: 'none'
+      ease: 'none',
     });
 
     gsap.to('.section-notice .card-blur .card-content', {
@@ -31,11 +31,11 @@ function SectionNotice(): React.ReactElement {
         trigger: '.section-notice',
         start: 'top 65px',
         end: 'center 100%',
-        scrub: 0
+        scrub: 0,
       },
       filter: 'blur(0px)',
       scale: 1,
-      ease: 'none'
+      ease: 'none',
     });
 
     gsap.to('.section-notice .card-offset', {
@@ -43,10 +43,10 @@ function SectionNotice(): React.ReactElement {
         trigger: '.section-notice',
         start: 'center center',
         end: 'bottom bottom',
-        scrub: 0
+        scrub: 0,
       },
       x: -offsetLeft,
-      ease: 'none'
+      ease: 'none',
     });
   });
 
@@ -72,7 +72,7 @@ function SectionNotice(): React.ReactElement {
               </div>
               <img
                 className="cover"
-                src={getImageUrl('/src/assets/section-notice/s1-01.jpg')}
+                src={getImageUrl('/src/assets/images/section-notice/notice-01.jpg')}
                 alt=""
               />
             </div>
@@ -93,7 +93,7 @@ function SectionNotice(): React.ReactElement {
               </div>
               <img
                 className="cover"
-                src={getImageUrl('/src/assets/section-notice/s1-02.jpg')}
+                src={getImageUrl('/src/assets/images/section-notice/notice-02.jpg')}
                 alt=""
               />
             </div>

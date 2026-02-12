@@ -13,8 +13,8 @@ function SectionTurbo(): React.ReactElement {
         trigger: '.section-turbo .section-wrapper',
         start: 'top 65px',
         pin: true,
-        scrub: 0.5
-      }
+        scrub: 0.5,
+      },
     });
 
     timeline.set('.section-turbo .turbo-svg', { yPercent: 50, scale: 3.6 });
@@ -28,7 +28,7 @@ function SectionTurbo(): React.ReactElement {
     timeline.to(
       '.section-turbo .path-white .l2',
       { strokeDasharray: '0% 0% 11%', duration: 0.5 },
-      '<'
+      '<',
     );
     timeline.to('.section-turbo .path-icon', { opacity: 1, duration: 0.5 }, '<');
 
@@ -44,7 +44,7 @@ function SectionTurbo(): React.ReactElement {
       '.section-turbo .subtitle',
       { y: 60, opacity: 0 },
       { y: 0, opacity: 1, duration: 1 },
-      '<'
+      '<',
     );
   });
 

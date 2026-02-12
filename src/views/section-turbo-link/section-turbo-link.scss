@@ -63,7 +63,7 @@
 
         .title {
           margin-block-start: 1.5625vw;
-          font-family: "HYQiHei70S";
+          font-family: 'HYQiHei-70S';
           font-size: 2.5vw;
           color: #FFFFFF;
         }
@@ -101,16 +101,12 @@
           }
 
           span {
-            font-family: "HYQiHei70S";
+            background-image: linear-gradient(#97DEFF, #1D3DE5);
+            background-clip: text;
+            font-family: 'HYQiHei-70S';
             font-size: 7.604167vw;
             font-weight: 600;
-            color: #FFFFFF;
-            background-image: linear-gradient(#97DEFF, #1D3DE5);
-            -webkit-background-clip: text;
-            background-clip: text;
-            box-decoration-break: clone;
-            -webkit-box-decoration-break: clone;
-            -webkit-text-fill-color: transparent;
+            color: transparent;
           }
         }
       }

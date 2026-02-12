@@ -12,19 +12,23 @@ function SectionHero(): React.ReactElement {
     gsap.timeline({
       scrollTrigger: {
         trigger: '.section-hero .section-wrapper',
-        toggleClass: 'animated'
-      }
+        toggleClass: 'animated',
+      },
     });
   });
 
   return (
     <section className="section-hero">
       <div className="section-wrapper">
-        <img className="cover" src={getImageUrl('/src/assets/section-hero/magic-kv.png')} alt="" />
+        <img
+          className="cover"
+          src={getImageUrl('/src/assets/images/section-hero/hero-kv.png')}
+          alt=""
+        />
         <div className="content">
           <img
-            className="magic-os"
-            src={getImageUrl('/src/assets/section-hero/magic-os.svg')}
+            className="hero-os"
+            src={getImageUrl('/src/assets/images/section-hero/hero-os.svg')}
             alt=""
           />
           <h2 className="slogan">越用越好用 越用越懂你</h2>

@@ -17,8 +17,8 @@ function SectionTurboGpu(): React.ReactElement {
         trigger: '.section-turbo-gpu .section-wrapper',
         start: 'top 65px',
         pin: true,
-        scrub: 0.5
-      }
+        scrub: 0.5,
+      },
     });
 
     const wrapperHeight = wrapperRef.current?.clientHeight ?? 0;
@@ -26,7 +26,7 @@ function SectionTurboGpu(): React.ReactElement {
     const headlineOffsetTop = headlineRef.current?.offsetTop ?? 0;
 
     timeline.set('.section-turbo-gpu .headline', {
-      y: wrapperHeight / 2 - headlineHeight / 2 - headlineOffsetTop
+      y: wrapperHeight / 2 - headlineHeight / 2 - headlineOffsetTop,
     });
     timeline.set('.section-turbo-gpu .section-content', { y: wrapperHeight - headlineOffsetTop });
     timeline.set('.section-turbo-gpu .headline-wrapper', { scale: 0.666667 });
@@ -35,12 +35,12 @@ function SectionTurboGpu(): React.ReactElement {
       '.section-turbo-gpu .headline-wrapper .mask',
       {
         '--gradient-left': '50%',
-        '--gradient-right': '50%'
+        '--gradient-right': '50%',
       },
       {
         '--gradient-left': '0%',
-        '--gradient-right': '100%'
-      }
+        '--gradient-right': '100%',
+      },
     );
 
     timeline.from('.section-turbo-gpu .fill-top', { xPercent: 100 });
@@ -49,7 +49,7 @@ function SectionTurboGpu(): React.ReactElement {
       '.section-turbo-gpu .headline-wrapper .mask',
       { autoAlpha: 1 },
       { autoAlpha: 0 },
-      '<'
+      '<',
     );
 
     timeline.to('.section-turbo-gpu .turbo-os', { scale: 0.4, opacity: 0.6 });
@@ -66,7 +66,7 @@ function SectionTurboGpu(): React.ReactElement {
           <div className="turbo-os">
             <div className="fill-top"></div>
             <div className="fill-bottom"></div>
-            <img src={getImageUrl('/src/assets/section-turbo-gpu/turbo-gpu.svg')} alt="" />
+            <img src={getImageUrl('/src/assets/images/section-turbo-gpu/turbo-gpu.svg')} alt="" />
           </div>
           <div className="headline-wrapper">
             <div className="mask"></div>
@@ -74,7 +74,7 @@ function SectionTurboGpu(): React.ReactElement {
           </div>
         </div>
         <div className="section-content">
-          <img src={getImageUrl('/src/assets/section-turbo-gpu/s7-01.png')} alt="" />
+          <img src={getImageUrl('/src/assets/images/section-turbo-gpu/turbo-gpu-01.png')} alt="" />
         </div>
       </div>
     </section>
